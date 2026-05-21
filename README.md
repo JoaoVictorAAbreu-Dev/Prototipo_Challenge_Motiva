@@ -1,235 +1,220 @@
-# 🛰️ Nexus SENTINEL
+<h1 align="center">Nexus Sentinel</h1>
 
-**Enterprise Geospatial Monitoring Platform**
+<p align="center">
+  <strong>Enterprise Geospatial Monitoring Platform</strong>
+</p>
 
-A scalable, enterprise-grade geospatial monitoring platform built with modern technologies and following Domain-Driven Design (DDD) and Clean Architecture principles.
+<p align="center">
+  Plataforma corporativa de monitoramento geoespacial, desenvolvida com foco em escalabilidade, modularidade e separação clara de responsabilidades.
+</p>
 
----
+<p align="center">
+  <a href="./LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
+  <a href="#"><img src="https://img.shields.io/badge/backend-FastAPI-009688" alt="Backend"></a>
+  <a href="#"><img src="https://img.shields.io/badge/frontend-React%20%2B%20TypeScript-61DAFB" alt="Frontend"></a>
+  <a href="#"><img src="https://img.shields.io/badge/database-PostgreSQL%20%2B%20PostGIS-336791" alt="Database"></a>
+</p>
 
-## 🏗️ Architecture Overview
+<hr>
 
-```
-┌─────────────────────────────────────────────────────────┐
-│                    FRONTEND LAYER                       │
-│         React + TypeScript + Vite + Tailwind            │
-│           (Domain | Application | Infrastructure | Presentation)
-└─────────────────────────────────────────────────────────┘
-                         ↕ HTTP/REST
-┌─────────────────────────────────────────────────────────┐
-│                    BACKEND LAYER                        │
-│            FastAPI + SQLAlchemy + SQLModel              │
-│  (Domain | Application | Infrastructure | Presentation) │
-└─────────────────────────────────────────────────────────┘
-                         ↕ SQL
-┌─────────────────────────────────────────────────────────┐
-│                   DATA LAYER                            │
-│      PostgreSQL + PostGIS (Geospatial Extension)        │
-│           Redis (Caching & Message Queue)               │
-└─────────────────────────────────────────────────────────┘
-```
+<h2>Visão geral</h2>
 
-### Design Patterns
+<p>
+  O Nexus Sentinel foi criado para cenários que exigem monitoramento geoespacial confiável, auditável e fácil de evoluir.
+  O projeto separa domínio, aplicação, infraestrutura e interface para reduzir acoplamento e aumentar a manutenibilidade.
+</p>
 
-- **Domain-Driven Design (DDD)**: Business logic separated into domain entities and value objects
-- **Clean Architecture**: Clear separation of concerns (Domain → Application → Infrastructure → Presentation)
-- **Modular Monolith**: Organized by business capabilities with clear boundaries
-- **Repository Pattern**: Abstracted data persistence
-- **Use Case Pattern**: Explicit application business rules
+<p>
+  A arquitetura foi desenhada para suportar crescimento por capacidade de negócio, com backend moderno, frontend responsivo e persistência espacial.
+</p>
 
----
+<h2>Sumário</h2>
 
-## 🚀 Quick Start
+<ul>
+  <li><a href="#visao-geral">Visão geral</a></li>
+  <li><a href="#arquitetura">Arquitetura</a></li>
+  <li><a href="#principais-funcionalidades">Principais funcionalidades</a></li>
+  <li><a href="#estrutura-do-projeto">Estrutura do projeto</a></li>
+  <li><a href="#como-executar">Como executar</a></li>
+  <li><a href="#desenvolvimento-local">Desenvolvimento local</a></li>
+  <li><a href="#banco-de-dados">Banco de dados</a></li>
+  <li><a href="#seguranca">Segurança</a></li>
+  <li><a href="#api">API</a></li>
+  <li><a href="#testes">Testes</a></li>
+  <li><a href="#qualidade-de-codigo">Qualidade de código</a></li>
+  <li><a href="#deploy">Deploy</a></li>
+  <li><a href="#licenca">Licença</a></li>
+</ul>
 
-### Prerequisites
+<h2>Arquitetura</h2>
 
-- Docker & Docker Compose
-- Node.js 18+ (for local frontend development)
-- Python 3.12+ (for local backend development)
+<pre><code>┌──────────────────────────────────────────────────────────────┐
+│                      Frontend Layer                          │
+│               React + TypeScript + Vite + Tailwind           │
+│            Domain | Application | Infrastructure | UI        │
+└──────────────────────────────────────────────────────────────┘
+                           ↕ HTTP / REST
+┌──────────────────────────────────────────────────────────────┐
+│                       Backend Layer                          │
+│                FastAPI + SQLAlchemy + SQLModel               │
+│            Domain | Application | Infrastructure | API       │
+└──────────────────────────────────────────────────────────────┘
+                           ↕ SQL
+┌──────────────────────────────────────────────────────────────┐
+│                        Data Layer                             │
+│              PostgreSQL + PostGIS + Redis                    │
+└──────────────────────────────────────────────────────────────┘
+</code></pre>
 
-### Setup with Docker
+<h3>Princípios de projeto</h3>
 
-1. **Clone and setup**
-   ```bash
-   git clone <repository>
-   cd nexus-sentinel
-   cp .env.example .env
-   ```
+<ul>
+  <li>Domain-Driven Design para centralizar regras de negócio.</li>
+  <li>Clean Architecture para separar responsabilidades.</li>
+  <li>Modular Monolith para organizar o sistema por contexto.</li>
+  <li>Repository Pattern para desacoplar persistência.</li>
+  <li>Use Case Pattern para explicitar fluxos de aplicação.</li>
+</ul>
 
-2. **Start services**
-   ```bash
-   docker-compose up -d
-   ```
+<h2>Principais funcionalidades</h2>
 
-3. **Access the application**
-   - **Frontend**: http://localhost:3000
-   - **Backend API**: http://localhost:8000
-   - **API Documentation**: http://localhost:8000/api/docs
-   - **Database**: localhost:5432
+<table>
+  <tr>
+    <th>Backend</th>
+    <th>Frontend</th>
+  </tr>
+  <tr>
+    <td>
+      <ul>
+        <li>API REST com FastAPI.</li>
+        <li>Suporte a operações assíncronas.</li>
+        <li>Consultas geoespaciais com PostgreSQL + PostGIS.</li>
+        <li>Cache e mensageria com Redis.</li>
+        <li>Autenticação pronta para JWT.</li>
+        <li>Migrações com Alembic.</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>React 18 com TypeScript.</li>
+        <li>Vite para build e desenvolvimento rápidos.</li>
+        <li>Tailwind CSS para interface responsiva.</li>
+        <li>Leaflet para mapas interativos.</li>
+        <li>Zustand para gerenciamento de estado.</li>
+        <li>Axios para integração com a API.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
-### Local Development
+<h2>Estrutura do projeto</h2>
 
-#### Backend
+<h3>Backend</h3>
 
-```bash
-cd backend
-
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run migrations
-alembic upgrade head
-
-# Start server
-uvicorn app.main:app --reload
-```
-
-#### Frontend
-
-```bash
-cd frontend
-
-# Install dependencies
-npm install
-
-# Start dev server
-npm run dev
-```
-
----
-
-## 📁 Project Structure
-
-### Backend (`/backend`)
-
-```
-backend/
+<pre><code>backend/
 ├── app/
-│   ├── domain/                 # Business logic & entities
-│   │   ├── entities/           # Domain entities
-│   │   ├── value_objects.py    # Value objects
-│   │   ├── repositories.py     # Repository interfaces
-│   │   └── exceptions.py       # Domain exceptions
-│   ├── application/            # Use cases & DTOs
-│   │   ├── use_cases/          # Application services
-│   │   ├── dto/                # Data transfer objects
-│   │   ├── mappers/            # Entity mappers
-│   │   └── events/             # Domain events
-│   ├── infrastructure/         # External integrations
-│   │   ├── database/           # DB models & session
-│   │   ├── repositories/       # Repository implementations
-│   │   ├── external/           # External APIs
-│   │   └── security/           # Auth & security
-│   ├── presentation/           # API layer
-│   │   ├── api/                # API routes
-│   │   ├── schemas.py          # Pydantic schemas
-│   │   ├── dependencies.py     # FastAPI dependencies
-│   │   └── error_handlers.py   # Exception handlers
-│   ├── main.py                 # FastAPI app
-│   └── config.py               # Configuration
-├── tests/                      # Test suite
-├── requirements.txt            # Python dependencies
-├── Dockerfile                  # Container image
-└── .env.example               # Environment variables
-```
+│   ├── domain/
+│   ├── application/
+│   ├── infrastructure/
+│   ├── presentation/
+│   ├── main.py
+│   └── config.py
+├── tests/
+├── requirements.txt
+├── Dockerfile
+└── .env.example
+</code></pre>
 
-### Frontend (`/frontend`)
+<h3>Frontend</h3>
 
-```
-frontend/
+<pre><code>frontend/
 ├── src/
-│   ├── domain/                 # Types & interfaces
-│   │   └── types.ts            # Domain models
-│   ├── application/            # State & business logic
-│   │   └── stores/             # Zustand stores
-│   ├── infrastructure/         # External integrations
-│   │   └── api/                # API client
-│   ├── presentation/           # UI layer
-│   │   ├── components/         # React components
-│   │   ├── pages/              # Page components
-│   │   ├── hooks/              # Custom hooks
-│   │   └── styles/             # Global styles
-│   ├── App.tsx                 # Root component
-│   └── main.tsx                # Entry point
-├── index.html                  # HTML template
-├── package.json                # Dependencies
-├── vite.config.ts              # Vite configuration
-├── tailwind.config.js          # Tailwind configuration
-├── tsconfig.json               # TypeScript configuration
-├── Dockerfile                  # Container image
-└── .env.example               # Environment variables
-```
+│   ├── domain/
+│   ├── application/
+│   ├── infrastructure/
+│   ├── presentation/
+│   ├── App.tsx
+│   └── main.tsx
+├── index.html
+├── package.json
+├── vite.config.ts
+├── tailwind.config.js
+├── tsconfig.json
+├── Dockerfile
+└── .env.example
+</code></pre>
 
----
+<h2>Como executar</h2>
 
-## 🔧 Core Features
+<h3>Pré-requisitos</h3>
 
-### Backend
+<ul>
+  <li>Docker e Docker Compose.</li>
+  <li>Node.js 18+.</li>
+  <li>Python 3.12+.</li>
+</ul>
 
-- ✅ **RESTful API** with FastAPI
-- ✅ **Async/await** support throughout
-- ✅ **PostgreSQL + PostGIS** for geospatial queries
-- ✅ **Redis** for caching and session management
-- ✅ **JWT Authentication** ready
-- ✅ **CORS** properly configured
-- ✅ **Database migrations** with Alembic
-- ✅ **Structured logging**
-- ✅ **Error handling** and validation
+<h3>Execução com Docker</h3>
 
-### Frontend
+<pre><code>git clone &lt;repository&gt;
+cd nexus-sentinel
+cp .env.example .env
+docker-compose up -d
+</code></pre>
 
-- ✅ **React 18** with TypeScript
-- ✅ **Vite** for fast builds
-- ✅ **Tailwind CSS** for styling
-- ✅ **Leaflet** for interactive maps
-- ✅ **Zustand** for state management
-- ✅ **Axios** for HTTP requests
-- ✅ **Responsive design** with mobile support
-- ✅ **Type-safe** across the stack
+<h3>Acessos principais</h3>
 
----
+<ul>
+  <li>Frontend: <code>http://localhost:3000</code></li>
+  <li>Backend API: <code>http://localhost:8000</code></li>
+  <li>Documentação da API: <code>http://localhost:8000/api/docs</code></li>
+  <li>Banco de dados: <code>localhost:5432</code></li>
+</ul>
 
-## 📊 Database Schema
+<h2>Desenvolvimento local</h2>
 
-### Key Tables
+<h3>Backend</h3>
 
-- **monitors**: Geospatial monitoring zones
-- **alerts**: Alert events and notifications
-- **users**: User management
-- **audit_logs**: Audit trail
+<pre><code>cd backend
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+pip install -r requirements.txt
+alembic upgrade head
+uvicorn app.main:app --reload
+</code></pre>
 
-### PostGIS Extensions
+<h3>Frontend</h3>
 
-- Point geometry for coordinates
-- Polygon geometry for boundaries
-- Spatial indexing for performance
+<pre><code>cd frontend
+npm install
+npm run dev
+</code></pre>
 
----
+<h2>Banco de dados</h2>
 
-## 🔐 Security
+<ul>
+  <li><code>monitors</code>: zonas de monitoramento geoespacial.</li>
+  <li><code>alerts</code>: eventos e notificações.</li>
+  <li><code>users</code>: gerenciamento de usuários.</li>
+  <li><code>audit_logs</code>: trilha de auditoria.</li>
+</ul>
 
-- ✅ CORS configured
-- ✅ JWT token-based auth
-- ✅ Password hashing with bcrypt
-- ✅ SQL injection prevention (SQLAlchemy)
-- ✅ Input validation with Pydantic
-- ✅ Environment-based secrets
-- ✅ HTTPS ready
+<h2>Segurança</h2>
 
----
+<ul>
+  <li>CORS configurado.</li>
+  <li>Autenticação baseada em JWT.</li>
+  <li>Hash de senhas com bcrypt.</li>
+  <li>Proteção contra SQL injection com SQLAlchemy.</li>
+  <li>Validação de entrada com Pydantic.</li>
+  <li>Segredos definidos por ambiente.</li>
+</ul>
 
-## 📝 API Documentation
+<h2>API</h2>
 
-Swagger UI: `http://localhost:8000/api/docs`
+<h3>Criar monitor</h3>
 
-### Example Endpoints
-
-**Create Monitor**
-```http
-POST /api/v1/monitors
+<pre><code>POST /api/v1/monitors
 Content-Type: application/json
 
 {
@@ -240,122 +225,59 @@ Content-Type: application/json
   "longitude": -47.879444,
   "radius_meters": 500
 }
-```
+</code></pre>
 
-**Get Monitor**
-```http
-GET /api/v1/monitors/{monitor_id}
-```
+<h3>Outros endpoints</h3>
 
-**List Monitors**
-```http
-GET /api/v1/monitors?skip=0&limit=20
-```
+<pre><code>GET /api/v1/monitors/{monitor_id}
+GET /api/v1/monitors?skip=0&amp;limit=20
+</code></pre>
 
----
+<h2>Testes</h2>
 
-## 🧪 Testing
+<h3>Backend</h3>
 
-### Backend
+<pre><code>cd backend
+pytest
+pytest -v
+pytest --cov
+pytest -k "monitor"
+</code></pre>
 
-```bash
-cd backend
-pytest                    # Run all tests
-pytest -v               # Verbose output
-pytest --cov            # Coverage report
-pytest -k "monitor"     # Run specific tests
-```
+<h3>Frontend</h3>
 
-### Frontend
+<pre><code>cd frontend
+npm run test
+npm run test:watch
+</code></pre>
 
-```bash
-cd frontend
-npm run test            # Run tests
-npm run test:watch     # Watch mode
-```
+<h2>Qualidade de código</h2>
 
----
+<h3>Backend</h3>
 
-## 📦 Deployment
+<pre><code>cd backend
+black .
+flake8 .
+mypy .
+isort .
+</code></pre>
 
-### Docker Build
+<h3>Frontend</h3>
 
-```bash
-# Build images
-docker-compose build
+<pre><code>cd frontend
+npm run lint
+npm run format
+npm run type-check
+</code></pre>
 
-# Start services
+<h2>Deploy</h2>
+
+<pre><code>docker-compose build
 docker-compose up -d
-
-# View logs
 docker-compose logs -f backend
 docker-compose logs -f frontend
-```
+</code></pre>
 
-### Environment Variables
+<h2>Licença</h2>
 
-Copy `.env.example` to `.env` and update:
-
-```bash
-cp .env.example .env
-# Edit .env with your values
-```
-
----
-
-## 🛠️ Development
-
-### Code Quality
-
-```bash
-# Backend
-cd backend
-black .              # Format code
-flake8 .             # Lint code
-mypy .               # Type checking
-isort .              # Sort imports
-
-# Frontend
-cd frontend
-npm run lint         # ESLint
-npm run format       # Prettier
-npm run type-check   # TypeScript
-```
-
-### Git Workflow
-
-```bash
-# Create feature branch
-git checkout -b feature/monitor-analytics
-
-# Commit changes
-git commit -m "feat: add monitor analytics"
-
-# Push and create PR
-git push origin feature/monitor-analytics
-```
-
----
-
-## 📞 Support
-
-- Documentation: [Wiki](./wiki)
-- Issues: [GitHub Issues](./issues)
-- Email: support@nexus-sentinel.com
-
----
-
-## 📄 License
-
-MIT License - See LICENSE file for details
-
----
-
-## 🙋 Contributing
-
-Contributions are welcome! Please read [CONTRIBUTING.md](./CONTRIBUTING.md)
-
----
-
-**Built with ❤️ for enterprise-grade geospatial monitoring**
-
+<p>Distribuído sob a licença MIT. Consulte o arquivo <code>LICENSE</code> para mais detalhes.</p>
