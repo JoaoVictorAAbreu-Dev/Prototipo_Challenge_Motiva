@@ -1,0 +1,4306 @@
+{
+  "rodovia": {
+    "nome": "BR-101 Trecho Monitorado",
+    "comprimento_km": 100,
+    "tamanho_microtrecho_m": 500,
+    "total_microtrechos": 200
+  },
+  "data_geracao": "2026-05-20T23:00:01.380453",
+  "microtrechos": [
+    {
+      "id": "MT-001",
+      "km_inicial": 0.0,
+      "km_final": 0.5,
+      "latitude": -12.965,
+      "longitude": -38.51,
+      "zona": "urbana",
+      "valor_evi": 0.238,
+      "dias_sem_manutencao": 11,
+      "indice_risco_operacional": 18.93,
+      "previsao_chuva": 65.6,
+      "prioridade_operacional": "baixa",
+      "status_operacional": "liberado",
+      "historico_rocadas": 6,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.372940",
+        "observacoes": [
+          "Próximo a zona urbana - trânsito intenso"
+        ]
+      }
+    },
+    {
+      "id": "MT-002",
+      "km_inicial": 0.5,
+      "km_final": 1.0,
+      "latitude": -12.969505,
+      "longitude": -38.505378,
+      "zona": "urbana",
+      "valor_evi": 0.1,
+      "dias_sem_manutencao": 5,
+      "indice_risco_operacional": 20.34,
+      "previsao_chuva": 76.1,
+      "prioridade_operacional": "baixa",
+      "status_operacional": "liberado",
+      "historico_rocadas": 9,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.372940",
+        "observacoes": [
+          "Próximo a zona urbana - trânsito intenso"
+        ]
+      }
+    },
+    {
+      "id": "MT-003",
+      "km_inicial": 1.0,
+      "km_final": 1.5,
+      "latitude": -12.974009,
+      "longitude": -38.500755,
+      "zona": "urbana",
+      "valor_evi": 0.222,
+      "dias_sem_manutencao": 25,
+      "indice_risco_operacional": 31.03,
+      "previsao_chuva": 71.9,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 7,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.372940",
+        "observacoes": [
+          "Próximo a zona urbana - trânsito intenso"
+        ]
+      }
+    },
+    {
+      "id": "MT-004",
+      "km_inicial": 1.5,
+      "km_final": 2.0,
+      "latitude": -12.978514,
+      "longitude": -38.496133,
+      "zona": "urbana",
+      "valor_evi": 0.289,
+      "dias_sem_manutencao": 14,
+      "indice_risco_operacional": 23.74,
+      "previsao_chuva": 59.9,
+      "prioridade_operacional": "baixa",
+      "status_operacional": "liberado",
+      "historico_rocadas": 10,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.372940",
+        "observacoes": [
+          "Próximo a zona urbana - trânsito intenso"
+        ]
+      }
+    },
+    {
+      "id": "MT-005",
+      "km_inicial": 2.0,
+      "km_final": 2.5,
+      "latitude": -12.983018,
+      "longitude": -38.491511,
+      "zona": "urbana",
+      "valor_evi": 0.22,
+      "dias_sem_manutencao": 14,
+      "indice_risco_operacional": 26.63,
+      "previsao_chuva": 81.9,
+      "prioridade_operacional": "baixa",
+      "status_operacional": "liberado",
+      "historico_rocadas": 8,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.372940",
+        "observacoes": [
+          "Próximo a zona urbana - trânsito intenso"
+        ]
+      }
+    },
+    {
+      "id": "MT-006",
+      "km_inicial": 2.5,
+      "km_final": 3.0,
+      "latitude": -12.987523,
+      "longitude": -38.486888,
+      "zona": "urbana",
+      "valor_evi": 0.266,
+      "dias_sem_manutencao": 15,
+      "indice_risco_operacional": 23.11,
+      "previsao_chuva": 83.0,
+      "prioridade_operacional": "baixa",
+      "status_operacional": "liberado",
+      "historico_rocadas": 8,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.372940",
+        "observacoes": [
+          "Próximo a zona urbana - trânsito intenso"
+        ]
+      }
+    },
+    {
+      "id": "MT-007",
+      "km_inicial": 3.0,
+      "km_final": 3.5,
+      "latitude": -12.992027,
+      "longitude": -38.482266,
+      "zona": "urbana",
+      "valor_evi": 0.244,
+      "dias_sem_manutencao": 15,
+      "indice_risco_operacional": 17.36,
+      "previsao_chuva": 76.7,
+      "prioridade_operacional": "baixa",
+      "status_operacional": "liberado",
+      "historico_rocadas": 6,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.372940",
+        "observacoes": [
+          "Próximo a zona urbana - trânsito intenso"
+        ]
+      }
+    },
+    {
+      "id": "MT-008",
+      "km_inicial": 3.5,
+      "km_final": 4.0,
+      "latitude": -12.996532,
+      "longitude": -38.477644,
+      "zona": "urbana",
+      "valor_evi": 0.32,
+      "dias_sem_manutencao": 15,
+      "indice_risco_operacional": 24.56,
+      "previsao_chuva": 68.9,
+      "prioridade_operacional": "baixa",
+      "status_operacional": "liberado",
+      "historico_rocadas": 9,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.372940",
+        "observacoes": [
+          "Próximo a zona urbana - trânsito intenso"
+        ]
+      }
+    },
+    {
+      "id": "MT-009",
+      "km_inicial": 4.0,
+      "km_final": 4.5,
+      "latitude": -13.001036,
+      "longitude": -38.473021,
+      "zona": "urbana",
+      "valor_evi": 0.244,
+      "dias_sem_manutencao": 19,
+      "indice_risco_operacional": 24.52,
+      "previsao_chuva": 63.1,
+      "prioridade_operacional": "baixa",
+      "status_operacional": "liberado",
+      "historico_rocadas": 8,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.372940",
+        "observacoes": [
+          "Próximo a zona urbana - trânsito intenso"
+        ]
+      }
+    },
+    {
+      "id": "MT-010",
+      "km_inicial": 4.5,
+      "km_final": 5.0,
+      "latitude": -13.005541,
+      "longitude": -38.468399,
+      "zona": "urbana",
+      "valor_evi": 0.296,
+      "dias_sem_manutencao": 6,
+      "indice_risco_operacional": 21.8,
+      "previsao_chuva": 79.8,
+      "prioridade_operacional": "baixa",
+      "status_operacional": "liberado",
+      "historico_rocadas": 9,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.372940",
+        "observacoes": [
+          "Próximo a zona urbana - trânsito intenso"
+        ]
+      }
+    },
+    {
+      "id": "MT-011",
+      "km_inicial": 5.0,
+      "km_final": 5.5,
+      "latitude": -13.010045,
+      "longitude": -38.463777,
+      "zona": "urbana",
+      "valor_evi": 0.176,
+      "dias_sem_manutencao": 11,
+      "indice_risco_operacional": 15.68,
+      "previsao_chuva": 69.8,
+      "prioridade_operacional": "baixa",
+      "status_operacional": "liberado",
+      "historico_rocadas": 8,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.372940",
+        "observacoes": [
+          "Próximo a zona urbana - trânsito intenso"
+        ]
+      }
+    },
+    {
+      "id": "MT-012",
+      "km_inicial": 5.5,
+      "km_final": 6.0,
+      "latitude": -13.01455,
+      "longitude": -38.459154,
+      "zona": "urbana",
+      "valor_evi": 0.16,
+      "dias_sem_manutencao": 8,
+      "indice_risco_operacional": 26.62,
+      "previsao_chuva": 72.0,
+      "prioridade_operacional": "baixa",
+      "status_operacional": "liberado",
+      "historico_rocadas": 9,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.372940",
+        "observacoes": [
+          "Próximo a zona urbana - trânsito intenso"
+        ]
+      }
+    },
+    {
+      "id": "MT-013",
+      "km_inicial": 6.0,
+      "km_final": 6.5,
+      "latitude": -13.019054,
+      "longitude": -38.454532,
+      "zona": "urbana",
+      "valor_evi": 0.214,
+      "dias_sem_manutencao": 25,
+      "indice_risco_operacional": 19.17,
+      "previsao_chuva": 86.8,
+      "prioridade_operacional": "baixa",
+      "status_operacional": "liberado",
+      "historico_rocadas": 8,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.372940",
+        "observacoes": [
+          "Próximo a zona urbana - trânsito intenso"
+        ]
+      }
+    },
+    {
+      "id": "MT-014",
+      "km_inicial": 6.5,
+      "km_final": 7.0,
+      "latitude": -13.023559,
+      "longitude": -38.44991,
+      "zona": "urbana",
+      "valor_evi": 0.197,
+      "dias_sem_manutencao": 10,
+      "indice_risco_operacional": 21.07,
+      "previsao_chuva": 73.6,
+      "prioridade_operacional": "baixa",
+      "status_operacional": "liberado",
+      "historico_rocadas": 9,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.372940",
+        "observacoes": [
+          "Próximo a zona urbana - trânsito intenso"
+        ]
+      }
+    },
+    {
+      "id": "MT-015",
+      "km_inicial": 7.0,
+      "km_final": 7.5,
+      "latitude": -13.028063,
+      "longitude": -38.445287,
+      "zona": "urbana",
+      "valor_evi": 0.313,
+      "dias_sem_manutencao": 20,
+      "indice_risco_operacional": 26.02,
+      "previsao_chuva": 68.9,
+      "prioridade_operacional": "baixa",
+      "status_operacional": "liberado",
+      "historico_rocadas": 9,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.372940",
+        "observacoes": [
+          "Próximo a zona urbana - trânsito intenso"
+        ]
+      }
+    },
+    {
+      "id": "MT-016",
+      "km_inicial": 7.5,
+      "km_final": 8.0,
+      "latitude": -13.032568,
+      "longitude": -38.440665,
+      "zona": "urbana",
+      "valor_evi": 0.276,
+      "dias_sem_manutencao": 23,
+      "indice_risco_operacional": 18.09,
+      "previsao_chuva": 77.3,
+      "prioridade_operacional": "baixa",
+      "status_operacional": "liberado",
+      "historico_rocadas": 5,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.372940",
+        "observacoes": [
+          "Próximo a zona urbana - trânsito intenso"
+        ]
+      }
+    },
+    {
+      "id": "MT-017",
+      "km_inicial": 8.0,
+      "km_final": 8.5,
+      "latitude": -13.037072,
+      "longitude": -38.436043,
+      "zona": "urbana",
+      "valor_evi": 0.257,
+      "dias_sem_manutencao": 6,
+      "indice_risco_operacional": 23.02,
+      "previsao_chuva": 77.3,
+      "prioridade_operacional": "baixa",
+      "status_operacional": "liberado",
+      "historico_rocadas": 8,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.373940",
+        "observacoes": [
+          "Próximo a zona urbana - trânsito intenso"
+        ]
+      }
+    },
+    {
+      "id": "MT-018",
+      "km_inicial": 8.5,
+      "km_final": 9.0,
+      "latitude": -13.041577,
+      "longitude": -38.43142,
+      "zona": "urbana",
+      "valor_evi": 0.258,
+      "dias_sem_manutencao": 23,
+      "indice_risco_operacional": 19.71,
+      "previsao_chuva": 54.6,
+      "prioridade_operacional": "baixa",
+      "status_operacional": "liberado",
+      "historico_rocadas": 9,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.373940",
+        "observacoes": [
+          "Próximo a zona urbana - trânsito intenso"
+        ]
+      }
+    },
+    {
+      "id": "MT-019",
+      "km_inicial": 9.0,
+      "km_final": 9.5,
+      "latitude": -13.046081,
+      "longitude": -38.426798,
+      "zona": "urbana",
+      "valor_evi": 0.263,
+      "dias_sem_manutencao": 16,
+      "indice_risco_operacional": 22.83,
+      "previsao_chuva": 77.2,
+      "prioridade_operacional": "baixa",
+      "status_operacional": "liberado",
+      "historico_rocadas": 6,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.373940",
+        "observacoes": [
+          "Próximo a zona urbana - trânsito intenso"
+        ]
+      }
+    },
+    {
+      "id": "MT-020",
+      "km_inicial": 9.5,
+      "km_final": 10.0,
+      "latitude": -13.050586,
+      "longitude": -38.422176,
+      "zona": "urbana",
+      "valor_evi": 0.23,
+      "dias_sem_manutencao": 10,
+      "indice_risco_operacional": 21.59,
+      "previsao_chuva": 79.9,
+      "prioridade_operacional": "baixa",
+      "status_operacional": "liberado",
+      "historico_rocadas": 9,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.373940",
+        "observacoes": [
+          "Próximo a zona urbana - trânsito intenso"
+        ]
+      }
+    },
+    {
+      "id": "MT-021",
+      "km_inicial": 10.0,
+      "km_final": 10.5,
+      "latitude": -13.05509,
+      "longitude": -38.417553,
+      "zona": "urbana",
+      "valor_evi": 0.306,
+      "dias_sem_manutencao": 7,
+      "indice_risco_operacional": 11.17,
+      "previsao_chuva": 97.4,
+      "prioridade_operacional": "baixa",
+      "status_operacional": "liberado",
+      "historico_rocadas": 7,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.373940",
+        "observacoes": [
+          "Próximo a zona urbana - trânsito intenso"
+        ]
+      }
+    },
+    {
+      "id": "MT-022",
+      "km_inicial": 10.5,
+      "km_final": 11.0,
+      "latitude": -13.059595,
+      "longitude": -38.412931,
+      "zona": "urbana",
+      "valor_evi": 0.215,
+      "dias_sem_manutencao": 9,
+      "indice_risco_operacional": 19.39,
+      "previsao_chuva": 75.6,
+      "prioridade_operacional": "baixa",
+      "status_operacional": "liberado",
+      "historico_rocadas": 9,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.373940",
+        "observacoes": [
+          "Próximo a zona urbana - trânsito intenso"
+        ]
+      }
+    },
+    {
+      "id": "MT-023",
+      "km_inicial": 11.0,
+      "km_final": 11.5,
+      "latitude": -13.064099,
+      "longitude": -38.408309,
+      "zona": "urbana",
+      "valor_evi": 0.1,
+      "dias_sem_manutencao": 25,
+      "indice_risco_operacional": 25.12,
+      "previsao_chuva": 79.7,
+      "prioridade_operacional": "baixa",
+      "status_operacional": "liberado",
+      "historico_rocadas": 5,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.373940",
+        "observacoes": [
+          "Próximo a zona urbana - trânsito intenso"
+        ]
+      }
+    },
+    {
+      "id": "MT-024",
+      "km_inicial": 11.5,
+      "km_final": 12.0,
+      "latitude": -13.068604,
+      "longitude": -38.403686,
+      "zona": "urbana",
+      "valor_evi": 0.305,
+      "dias_sem_manutencao": 25,
+      "indice_risco_operacional": 11.26,
+      "previsao_chuva": 78.3,
+      "prioridade_operacional": "baixa",
+      "status_operacional": "liberado",
+      "historico_rocadas": 9,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.373940",
+        "observacoes": [
+          "Próximo a zona urbana - trânsito intenso"
+        ]
+      }
+    },
+    {
+      "id": "MT-025",
+      "km_inicial": 12.0,
+      "km_final": 12.5,
+      "latitude": -13.073108,
+      "longitude": -38.399064,
+      "zona": "urbana",
+      "valor_evi": 0.268,
+      "dias_sem_manutencao": 6,
+      "indice_risco_operacional": 18.17,
+      "previsao_chuva": 87.1,
+      "prioridade_operacional": "baixa",
+      "status_operacional": "liberado",
+      "historico_rocadas": 10,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.373940",
+        "observacoes": [
+          "Próximo a zona urbana - trânsito intenso"
+        ]
+      }
+    },
+    {
+      "id": "MT-026",
+      "km_inicial": 12.5,
+      "km_final": 13.0,
+      "latitude": -13.077613,
+      "longitude": -38.394441,
+      "zona": "urbana",
+      "valor_evi": 0.213,
+      "dias_sem_manutencao": 15,
+      "indice_risco_operacional": 18.28,
+      "previsao_chuva": 82.1,
+      "prioridade_operacional": "baixa",
+      "status_operacional": "liberado",
+      "historico_rocadas": 8,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.373940",
+        "observacoes": [
+          "Próximo a zona urbana - trânsito intenso"
+        ]
+      }
+    },
+    {
+      "id": "MT-027",
+      "km_inicial": 13.0,
+      "km_final": 13.5,
+      "latitude": -13.082117,
+      "longitude": -38.389819,
+      "zona": "urbana",
+      "valor_evi": 0.218,
+      "dias_sem_manutencao": 13,
+      "indice_risco_operacional": 15.99,
+      "previsao_chuva": 65.7,
+      "prioridade_operacional": "baixa",
+      "status_operacional": "liberado",
+      "historico_rocadas": 6,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.373940",
+        "observacoes": [
+          "Próximo a zona urbana - trânsito intenso"
+        ]
+      }
+    },
+    {
+      "id": "MT-028",
+      "km_inicial": 13.5,
+      "km_final": 14.0,
+      "latitude": -13.086622,
+      "longitude": -38.385197,
+      "zona": "urbana",
+      "valor_evi": 0.179,
+      "dias_sem_manutencao": 11,
+      "indice_risco_operacional": 22.39,
+      "previsao_chuva": 68.4,
+      "prioridade_operacional": "baixa",
+      "status_operacional": "liberado",
+      "historico_rocadas": 7,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.373940",
+        "observacoes": [
+          "Próximo a zona urbana - trânsito intenso"
+        ]
+      }
+    },
+    {
+      "id": "MT-029",
+      "km_inicial": 14.0,
+      "km_final": 14.5,
+      "latitude": -13.091126,
+      "longitude": -38.380574,
+      "zona": "urbana",
+      "valor_evi": 0.1,
+      "dias_sem_manutencao": 21,
+      "indice_risco_operacional": 9.3,
+      "previsao_chuva": 70.5,
+      "prioridade_operacional": "baixa",
+      "status_operacional": "liberado",
+      "historico_rocadas": 5,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.373940",
+        "observacoes": [
+          "Próximo a zona urbana - trânsito intenso"
+        ]
+      }
+    },
+    {
+      "id": "MT-030",
+      "km_inicial": 14.5,
+      "km_final": 15.0,
+      "latitude": -13.095631,
+      "longitude": -38.375952,
+      "zona": "urbana",
+      "valor_evi": 0.362,
+      "dias_sem_manutencao": 8,
+      "indice_risco_operacional": 20.64,
+      "previsao_chuva": 68.4,
+      "prioridade_operacional": "baixa",
+      "status_operacional": "liberado",
+      "historico_rocadas": 9,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.373940",
+        "observacoes": [
+          "Próximo a zona urbana - trânsito intenso"
+        ]
+      }
+    },
+    {
+      "id": "MT-031",
+      "km_inicial": 15.0,
+      "km_final": 15.5,
+      "latitude": -13.100135,
+      "longitude": -38.37133,
+      "zona": "rural_estavel",
+      "valor_evi": 0.52,
+      "dias_sem_manutencao": 16,
+      "indice_risco_operacional": 37.46,
+      "previsao_chuva": 69.9,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 10,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.373940",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-032",
+      "km_inicial": 15.5,
+      "km_final": 16.0,
+      "latitude": -13.10464,
+      "longitude": -38.366707,
+      "zona": "rural_estavel",
+      "valor_evi": 0.403,
+      "dias_sem_manutencao": 17,
+      "indice_risco_operacional": 23.83,
+      "previsao_chuva": 69.6,
+      "prioridade_operacional": "baixa",
+      "status_operacional": "liberado",
+      "historico_rocadas": 9,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.373940",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-033",
+      "km_inicial": 16.0,
+      "km_final": 16.5,
+      "latitude": -13.109144,
+      "longitude": -38.362085,
+      "zona": "rural_estavel",
+      "valor_evi": 0.524,
+      "dias_sem_manutencao": 42,
+      "indice_risco_operacional": 38.76,
+      "previsao_chuva": 76.9,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 6,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.373940",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-034",
+      "km_inicial": 16.5,
+      "km_final": 17.0,
+      "latitude": -13.113649,
+      "longitude": -38.357463,
+      "zona": "rural_estavel",
+      "valor_evi": 0.509,
+      "dias_sem_manutencao": 38,
+      "indice_risco_operacional": 45.87,
+      "previsao_chuva": 54.4,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 8,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.373940",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-035",
+      "km_inicial": 17.0,
+      "km_final": 17.5,
+      "latitude": -13.118153,
+      "longitude": -38.35284,
+      "zona": "rural_estavel",
+      "valor_evi": 0.467,
+      "dias_sem_manutencao": 41,
+      "indice_risco_operacional": 31.51,
+      "previsao_chuva": 76.1,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 6,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.373940",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-036",
+      "km_inicial": 17.5,
+      "km_final": 18.0,
+      "latitude": -13.122658,
+      "longitude": -38.348218,
+      "zona": "rural_estavel",
+      "valor_evi": 0.413,
+      "dias_sem_manutencao": 23,
+      "indice_risco_operacional": 31.05,
+      "previsao_chuva": 66.5,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 4,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.373940",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-037",
+      "km_inicial": 18.0,
+      "km_final": 18.5,
+      "latitude": -13.127162,
+      "longitude": -38.343596,
+      "zona": "rural_estavel",
+      "valor_evi": 0.399,
+      "dias_sem_manutencao": 23,
+      "indice_risco_operacional": 29.62,
+      "previsao_chuva": 86.1,
+      "prioridade_operacional": "baixa",
+      "status_operacional": "liberado",
+      "historico_rocadas": 4,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.373940",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-038",
+      "km_inicial": 18.5,
+      "km_final": 19.0,
+      "latitude": -13.131667,
+      "longitude": -38.338973,
+      "zona": "rural_estavel",
+      "valor_evi": 0.635,
+      "dias_sem_manutencao": 40,
+      "indice_risco_operacional": 41.43,
+      "previsao_chuva": 74.5,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 5,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.373940",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-039",
+      "km_inicial": 19.0,
+      "km_final": 19.5,
+      "latitude": -13.136171,
+      "longitude": -38.334351,
+      "zona": "rural_estavel",
+      "valor_evi": 0.632,
+      "dias_sem_manutencao": 37,
+      "indice_risco_operacional": 38.72,
+      "previsao_chuva": 52.9,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 9,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.373940",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-040",
+      "km_inicial": 19.5,
+      "km_final": 20.0,
+      "latitude": -13.140676,
+      "longitude": -38.329729,
+      "zona": "rural_estavel",
+      "valor_evi": 0.532,
+      "dias_sem_manutencao": 24,
+      "indice_risco_operacional": 32.22,
+      "previsao_chuva": 79.8,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 6,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.373940",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-041",
+      "km_inicial": 20.0,
+      "km_final": 20.5,
+      "latitude": -13.14518,
+      "longitude": -38.325106,
+      "zona": "rural_estavel",
+      "valor_evi": 0.399,
+      "dias_sem_manutencao": 39,
+      "indice_risco_operacional": 32.52,
+      "previsao_chuva": 79.3,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 6,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.373940",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-042",
+      "km_inicial": 20.5,
+      "km_final": 21.0,
+      "latitude": -13.149685,
+      "longitude": -38.320484,
+      "zona": "rural_estavel",
+      "valor_evi": 0.586,
+      "dias_sem_manutencao": 21,
+      "indice_risco_operacional": 33.91,
+      "previsao_chuva": 68.1,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 7,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.373940",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-043",
+      "km_inicial": 21.0,
+      "km_final": 21.5,
+      "latitude": -13.154189,
+      "longitude": -38.315862,
+      "zona": "rural_estavel",
+      "valor_evi": 0.458,
+      "dias_sem_manutencao": 15,
+      "indice_risco_operacional": 36.83,
+      "previsao_chuva": 77.3,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 9,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.373940",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-044",
+      "km_inicial": 21.5,
+      "km_final": 22.0,
+      "latitude": -13.158694,
+      "longitude": -38.311239,
+      "zona": "rural_estavel",
+      "valor_evi": 0.425,
+      "dias_sem_manutencao": 21,
+      "indice_risco_operacional": 41.46,
+      "previsao_chuva": 62.6,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 7,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.373940",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-045",
+      "km_inicial": 22.0,
+      "km_final": 22.5,
+      "latitude": -13.163198,
+      "longitude": -38.306617,
+      "zona": "rural_estavel",
+      "valor_evi": 0.35,
+      "dias_sem_manutencao": 27,
+      "indice_risco_operacional": 34.67,
+      "previsao_chuva": 60.3,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 6,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.373940",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-046",
+      "km_inicial": 22.5,
+      "km_final": 23.0,
+      "latitude": -13.167703,
+      "longitude": -38.301995,
+      "zona": "rural_estavel",
+      "valor_evi": 0.243,
+      "dias_sem_manutencao": 38,
+      "indice_risco_operacional": 30.1,
+      "previsao_chuva": 77.0,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 6,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.373940",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-047",
+      "km_inicial": 23.0,
+      "km_final": 23.5,
+      "latitude": -13.172207,
+      "longitude": -38.297372,
+      "zona": "rural_estavel",
+      "valor_evi": 0.46,
+      "dias_sem_manutencao": 21,
+      "indice_risco_operacional": 28.19,
+      "previsao_chuva": 73.3,
+      "prioridade_operacional": "baixa",
+      "status_operacional": "liberado",
+      "historico_rocadas": 6,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.373940",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-048",
+      "km_inicial": 23.5,
+      "km_final": 24.0,
+      "latitude": -13.176712,
+      "longitude": -38.29275,
+      "zona": "rural_estavel",
+      "valor_evi": 0.393,
+      "dias_sem_manutencao": 21,
+      "indice_risco_operacional": 32.74,
+      "previsao_chuva": 71.5,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 6,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.373940",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-049",
+      "km_inicial": 24.0,
+      "km_final": 24.5,
+      "latitude": -13.181216,
+      "longitude": -38.288128,
+      "zona": "rural_estavel",
+      "valor_evi": 0.59,
+      "dias_sem_manutencao": 44,
+      "indice_risco_operacional": 42.34,
+      "previsao_chuva": 85.6,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 7,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.373940",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-050",
+      "km_inicial": 24.5,
+      "km_final": 25.0,
+      "latitude": -13.185721,
+      "longitude": -38.283505,
+      "zona": "rural_estavel",
+      "valor_evi": 0.343,
+      "dias_sem_manutencao": 25,
+      "indice_risco_operacional": 36.22,
+      "previsao_chuva": 54.7,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 5,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.373940",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-051",
+      "km_inicial": 25.0,
+      "km_final": 25.5,
+      "latitude": -13.190225,
+      "longitude": -38.278883,
+      "zona": "rural_estavel",
+      "valor_evi": 0.521,
+      "dias_sem_manutencao": 40,
+      "indice_risco_operacional": 38.08,
+      "previsao_chuva": 87.1,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 8,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.374937",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-052",
+      "km_inicial": 25.5,
+      "km_final": 26.0,
+      "latitude": -13.19473,
+      "longitude": -38.274261,
+      "zona": "rural_estavel",
+      "valor_evi": 0.299,
+      "dias_sem_manutencao": 33,
+      "indice_risco_operacional": 36.81,
+      "previsao_chuva": 83.4,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 6,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.374937",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-053",
+      "km_inicial": 26.0,
+      "km_final": 26.5,
+      "latitude": -13.199234,
+      "longitude": -38.269638,
+      "zona": "rural_estavel",
+      "valor_evi": 0.38,
+      "dias_sem_manutencao": 21,
+      "indice_risco_operacional": 34.31,
+      "previsao_chuva": 58.7,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 6,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.374937",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-054",
+      "km_inicial": 26.5,
+      "km_final": 27.0,
+      "latitude": -13.203739,
+      "longitude": -38.265016,
+      "zona": "rural_estavel",
+      "valor_evi": 0.475,
+      "dias_sem_manutencao": 14,
+      "indice_risco_operacional": 31.01,
+      "previsao_chuva": 69.9,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 5,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.374937",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-055",
+      "km_inicial": 27.0,
+      "km_final": 27.5,
+      "latitude": -13.208243,
+      "longitude": -38.260394,
+      "zona": "rural_estavel",
+      "valor_evi": 0.407,
+      "dias_sem_manutencao": 32,
+      "indice_risco_operacional": 26.56,
+      "previsao_chuva": 76.0,
+      "prioridade_operacional": "baixa",
+      "status_operacional": "liberado",
+      "historico_rocadas": 4,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.374937",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-056",
+      "km_inicial": 27.5,
+      "km_final": 28.0,
+      "latitude": -13.212748,
+      "longitude": -38.255771,
+      "zona": "rural_estavel",
+      "valor_evi": 0.403,
+      "dias_sem_manutencao": 34,
+      "indice_risco_operacional": 41.62,
+      "previsao_chuva": 82.0,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 4,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.374937",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-057",
+      "km_inicial": 28.0,
+      "km_final": 28.5,
+      "latitude": -13.217252,
+      "longitude": -38.251149,
+      "zona": "rural_estavel",
+      "valor_evi": 0.499,
+      "dias_sem_manutencao": 39,
+      "indice_risco_operacional": 28.43,
+      "previsao_chuva": 66.3,
+      "prioridade_operacional": "baixa",
+      "status_operacional": "liberado",
+      "historico_rocadas": 6,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.374937",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-058",
+      "km_inicial": 28.5,
+      "km_final": 29.0,
+      "latitude": -13.221757,
+      "longitude": -38.246527,
+      "zona": "rural_estavel",
+      "valor_evi": 0.483,
+      "dias_sem_manutencao": 27,
+      "indice_risco_operacional": 33.84,
+      "previsao_chuva": 64.7,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 6,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.374937",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-059",
+      "km_inicial": 29.0,
+      "km_final": 29.5,
+      "latitude": -13.226261,
+      "longitude": -38.241904,
+      "zona": "rural_estavel",
+      "valor_evi": 0.304,
+      "dias_sem_manutencao": 21,
+      "indice_risco_operacional": 33.94,
+      "previsao_chuva": 77.1,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 5,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.374937",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-060",
+      "km_inicial": 29.5,
+      "km_final": 30.0,
+      "latitude": -13.230766,
+      "longitude": -38.237282,
+      "zona": "rural_estavel",
+      "valor_evi": 0.42,
+      "dias_sem_manutencao": 34,
+      "indice_risco_operacional": 30.65,
+      "previsao_chuva": 75.3,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 5,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.374937",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-061",
+      "km_inicial": 30.0,
+      "km_final": 30.5,
+      "latitude": -13.23527,
+      "longitude": -38.23266,
+      "zona": "rural_estavel",
+      "valor_evi": 0.43,
+      "dias_sem_manutencao": 31,
+      "indice_risco_operacional": 41.51,
+      "previsao_chuva": 88.7,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 8,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.374937",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-062",
+      "km_inicial": 30.5,
+      "km_final": 31.0,
+      "latitude": -13.239775,
+      "longitude": -38.228037,
+      "zona": "rural_estavel",
+      "valor_evi": 0.515,
+      "dias_sem_manutencao": 37,
+      "indice_risco_operacional": 39.79,
+      "previsao_chuva": 78.9,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 7,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.374937",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-063",
+      "km_inicial": 31.0,
+      "km_final": 31.5,
+      "latitude": -13.244279,
+      "longitude": -38.223415,
+      "zona": "rural_estavel",
+      "valor_evi": 0.353,
+      "dias_sem_manutencao": 35,
+      "indice_risco_operacional": 35.21,
+      "previsao_chuva": 72.7,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 5,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.374937",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-064",
+      "km_inicial": 31.5,
+      "km_final": 32.0,
+      "latitude": -13.248784,
+      "longitude": -38.218793,
+      "zona": "rural_estavel",
+      "valor_evi": 0.389,
+      "dias_sem_manutencao": 36,
+      "indice_risco_operacional": 37.78,
+      "previsao_chuva": 90.3,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 8,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.374937",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-065",
+      "km_inicial": 32.0,
+      "km_final": 32.5,
+      "latitude": -13.253288,
+      "longitude": -38.21417,
+      "zona": "rural_estavel",
+      "valor_evi": 0.442,
+      "dias_sem_manutencao": 23,
+      "indice_risco_operacional": 36.44,
+      "previsao_chuva": 69.9,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 6,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.374937",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-066",
+      "km_inicial": 32.5,
+      "km_final": 33.0,
+      "latitude": -13.257793,
+      "longitude": -38.209548,
+      "zona": "rural_estavel",
+      "valor_evi": 0.569,
+      "dias_sem_manutencao": 38,
+      "indice_risco_operacional": 38.38,
+      "previsao_chuva": 75.9,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 8,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.374937",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-067",
+      "km_inicial": 33.0,
+      "km_final": 33.5,
+      "latitude": -13.262297,
+      "longitude": -38.204926,
+      "zona": "rural_estavel",
+      "valor_evi": 0.46,
+      "dias_sem_manutencao": 17,
+      "indice_risco_operacional": 35.28,
+      "previsao_chuva": 87.6,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 6,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.374937",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-068",
+      "km_inicial": 33.5,
+      "km_final": 34.0,
+      "latitude": -13.266802,
+      "longitude": -38.200303,
+      "zona": "rural_estavel",
+      "valor_evi": 0.501,
+      "dias_sem_manutencao": 22,
+      "indice_risco_operacional": 28.01,
+      "previsao_chuva": 64.0,
+      "prioridade_operacional": "baixa",
+      "status_operacional": "liberado",
+      "historico_rocadas": 9,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.374937",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-069",
+      "km_inicial": 34.0,
+      "km_final": 34.5,
+      "latitude": -13.271306,
+      "longitude": -38.195681,
+      "zona": "rural_estavel",
+      "valor_evi": 0.419,
+      "dias_sem_manutencao": 23,
+      "indice_risco_operacional": 40.21,
+      "previsao_chuva": 62.3,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 5,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.374937",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-070",
+      "km_inicial": 34.5,
+      "km_final": 35.0,
+      "latitude": -13.275811,
+      "longitude": -38.191059,
+      "zona": "rural_estavel",
+      "valor_evi": 0.367,
+      "dias_sem_manutencao": 18,
+      "indice_risco_operacional": 37.97,
+      "previsao_chuva": 75.2,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 8,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.374937",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-071",
+      "km_inicial": 35.0,
+      "km_final": 35.5,
+      "latitude": -13.280315,
+      "longitude": -38.186436,
+      "zona": "critica",
+      "valor_evi": 0.635,
+      "dias_sem_manutencao": 154,
+      "indice_risco_operacional": 100,
+      "previsao_chuva": 78.3,
+      "prioridade_operacional": "critica",
+      "status_operacional": "interditado",
+      "historico_rocadas": 3,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.374937",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-072",
+      "km_inicial": 35.5,
+      "km_final": 36.0,
+      "latitude": -13.28482,
+      "longitude": -38.181814,
+      "zona": "critica",
+      "valor_evi": 0.541,
+      "dias_sem_manutencao": 95,
+      "indice_risco_operacional": 91.39,
+      "previsao_chuva": 77.6,
+      "prioridade_operacional": "critica",
+      "status_operacional": "interditado",
+      "historico_rocadas": 11,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.374937",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-073",
+      "km_inicial": 36.0,
+      "km_final": 36.5,
+      "latitude": -13.289324,
+      "longitude": -38.177191,
+      "zona": "critica",
+      "valor_evi": 0.567,
+      "dias_sem_manutencao": 113,
+      "indice_risco_operacional": 93.15,
+      "previsao_chuva": 63.3,
+      "prioridade_operacional": "critica",
+      "status_operacional": "interditado",
+      "historico_rocadas": 5,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.374937",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-074",
+      "km_inicial": 36.5,
+      "km_final": 37.0,
+      "latitude": -13.293829,
+      "longitude": -38.172569,
+      "zona": "critica",
+      "valor_evi": 0.65,
+      "dias_sem_manutencao": 66,
+      "indice_risco_operacional": 96.32,
+      "previsao_chuva": 70.5,
+      "prioridade_operacional": "critica",
+      "status_operacional": "interditado",
+      "historico_rocadas": 7,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.374937",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-075",
+      "km_inicial": 37.0,
+      "km_final": 37.5,
+      "latitude": -13.298333,
+      "longitude": -38.167947,
+      "zona": "critica",
+      "valor_evi": 0.78,
+      "dias_sem_manutencao": 159,
+      "indice_risco_operacional": 100,
+      "previsao_chuva": 80.5,
+      "prioridade_operacional": "critica",
+      "status_operacional": "interditado",
+      "historico_rocadas": 8,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.374937",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "EVI elevado - monitorar inundações sazonais",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-076",
+      "km_inicial": 37.5,
+      "km_final": 38.0,
+      "latitude": -13.302838,
+      "longitude": -38.163324,
+      "zona": "critica",
+      "valor_evi": 0.746,
+      "dias_sem_manutencao": 159,
+      "indice_risco_operacional": 95.17,
+      "previsao_chuva": 88.5,
+      "prioridade_operacional": "critica",
+      "status_operacional": "interditado",
+      "historico_rocadas": 11,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.374937",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "EVI elevado - monitorar inundações sazonais",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-077",
+      "km_inicial": 38.0,
+      "km_final": 38.5,
+      "latitude": -13.307342,
+      "longitude": -38.158702,
+      "zona": "critica",
+      "valor_evi": 0.583,
+      "dias_sem_manutencao": 114,
+      "indice_risco_operacional": 92.63,
+      "previsao_chuva": 75.2,
+      "prioridade_operacional": "critica",
+      "status_operacional": "interditado",
+      "historico_rocadas": 8,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.374937",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-078",
+      "km_inicial": 38.5,
+      "km_final": 39.0,
+      "latitude": -13.311847,
+      "longitude": -38.15408,
+      "zona": "critica",
+      "valor_evi": 0.647,
+      "dias_sem_manutencao": 147,
+      "indice_risco_operacional": 90.07,
+      "previsao_chuva": 63.0,
+      "prioridade_operacional": "critica",
+      "status_operacional": "interditado",
+      "historico_rocadas": 8,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.374937",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-079",
+      "km_inicial": 39.0,
+      "km_final": 39.5,
+      "latitude": -13.316351,
+      "longitude": -38.149457,
+      "zona": "critica",
+      "valor_evi": 0.535,
+      "dias_sem_manutencao": 141,
+      "indice_risco_operacional": 96.63,
+      "previsao_chuva": 72.8,
+      "prioridade_operacional": "critica",
+      "status_operacional": "interditado",
+      "historico_rocadas": 6,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.374937",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-080",
+      "km_inicial": 39.5,
+      "km_final": 40.0,
+      "latitude": -13.320856,
+      "longitude": -38.144835,
+      "zona": "critica",
+      "valor_evi": 0.583,
+      "dias_sem_manutencao": 77,
+      "indice_risco_operacional": 79.36,
+      "previsao_chuva": 75.2,
+      "prioridade_operacional": "critica",
+      "status_operacional": "parcialmente_interditado",
+      "historico_rocadas": 10,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.374937",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-081",
+      "km_inicial": 40.0,
+      "km_final": 40.5,
+      "latitude": -13.32536,
+      "longitude": -38.140213,
+      "zona": "critica",
+      "valor_evi": 0.654,
+      "dias_sem_manutencao": 144,
+      "indice_risco_operacional": 100,
+      "previsao_chuva": 80.3,
+      "prioridade_operacional": "critica",
+      "status_operacional": "interditado",
+      "historico_rocadas": 10,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.374937",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "EVI elevado - monitorar inundações sazonais",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-082",
+      "km_inicial": 40.5,
+      "km_final": 41.0,
+      "latitude": -13.329865,
+      "longitude": -38.13559,
+      "zona": "critica",
+      "valor_evi": 0.601,
+      "dias_sem_manutencao": 101,
+      "indice_risco_operacional": 83.81,
+      "previsao_chuva": 67.9,
+      "prioridade_operacional": "critica",
+      "status_operacional": "parcialmente_interditado",
+      "historico_rocadas": 9,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.374937",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-083",
+      "km_inicial": 41.0,
+      "km_final": 41.5,
+      "latitude": -13.334369,
+      "longitude": -38.130968,
+      "zona": "critica",
+      "valor_evi": 0.583,
+      "dias_sem_manutencao": 104,
+      "indice_risco_operacional": 97.67,
+      "previsao_chuva": 82.3,
+      "prioridade_operacional": "critica",
+      "status_operacional": "interditado",
+      "historico_rocadas": 11,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.374937",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-084",
+      "km_inicial": 41.5,
+      "km_final": 42.0,
+      "latitude": -13.338874,
+      "longitude": -38.126346,
+      "zona": "critica",
+      "valor_evi": 0.643,
+      "dias_sem_manutencao": 126,
+      "indice_risco_operacional": 88.07,
+      "previsao_chuva": 84.7,
+      "prioridade_operacional": "critica",
+      "status_operacional": "interditado",
+      "historico_rocadas": 4,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.375936",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-085",
+      "km_inicial": 42.0,
+      "km_final": 42.5,
+      "latitude": -13.343378,
+      "longitude": -38.121723,
+      "zona": "critica",
+      "valor_evi": 0.72,
+      "dias_sem_manutencao": 126,
+      "indice_risco_operacional": 93.83,
+      "previsao_chuva": 76.5,
+      "prioridade_operacional": "critica",
+      "status_operacional": "interditado",
+      "historico_rocadas": 12,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.375936",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "EVI elevado - monitorar inundações sazonais",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-086",
+      "km_inicial": 42.5,
+      "km_final": 43.0,
+      "latitude": -13.347883,
+      "longitude": -38.117101,
+      "zona": "critica",
+      "valor_evi": 0.642,
+      "dias_sem_manutencao": 98,
+      "indice_risco_operacional": 87.97,
+      "previsao_chuva": 61.4,
+      "prioridade_operacional": "critica",
+      "status_operacional": "interditado",
+      "historico_rocadas": 10,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.375936",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-087",
+      "km_inicial": 43.0,
+      "km_final": 43.5,
+      "latitude": -13.352387,
+      "longitude": -38.112479,
+      "zona": "critica",
+      "valor_evi": 0.665,
+      "dias_sem_manutencao": 149,
+      "indice_risco_operacional": 95.56,
+      "previsao_chuva": 91.6,
+      "prioridade_operacional": "critica",
+      "status_operacional": "interditado",
+      "historico_rocadas": 10,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.375936",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "EVI elevado - monitorar inundações sazonais",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-088",
+      "km_inicial": 43.5,
+      "km_final": 44.0,
+      "latitude": -13.356892,
+      "longitude": -38.107856,
+      "zona": "critica",
+      "valor_evi": 0.648,
+      "dias_sem_manutencao": 103,
+      "indice_risco_operacional": 99.71,
+      "previsao_chuva": 80.1,
+      "prioridade_operacional": "critica",
+      "status_operacional": "interditado",
+      "historico_rocadas": 8,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.375936",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-089",
+      "km_inicial": 44.0,
+      "km_final": 44.5,
+      "latitude": -13.361396,
+      "longitude": -38.103234,
+      "zona": "critica",
+      "valor_evi": 0.653,
+      "dias_sem_manutencao": 88,
+      "indice_risco_operacional": 94.72,
+      "previsao_chuva": 92.8,
+      "prioridade_operacional": "critica",
+      "status_operacional": "interditado",
+      "historico_rocadas": 10,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.375936",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "EVI elevado - monitorar inundações sazonais",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-090",
+      "km_inicial": 44.5,
+      "km_final": 45.0,
+      "latitude": -13.365901,
+      "longitude": -38.098612,
+      "zona": "critica",
+      "valor_evi": 0.727,
+      "dias_sem_manutencao": 153,
+      "indice_risco_operacional": 97.88,
+      "previsao_chuva": 76.4,
+      "prioridade_operacional": "critica",
+      "status_operacional": "interditado",
+      "historico_rocadas": 10,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.375936",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "EVI elevado - monitorar inundações sazonais",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-091",
+      "km_inicial": 45.0,
+      "km_final": 45.5,
+      "latitude": -13.370405,
+      "longitude": -38.093989,
+      "zona": "critica",
+      "valor_evi": 0.8,
+      "dias_sem_manutencao": 157,
+      "indice_risco_operacional": 100,
+      "previsao_chuva": 71.0,
+      "prioridade_operacional": "critica",
+      "status_operacional": "interditado",
+      "historico_rocadas": 8,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.375936",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "EVI elevado - monitorar inundações sazonais",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-092",
+      "km_inicial": 45.5,
+      "km_final": 46.0,
+      "latitude": -13.37491,
+      "longitude": -38.089367,
+      "zona": "critica",
+      "valor_evi": 0.568,
+      "dias_sem_manutencao": 136,
+      "indice_risco_operacional": 91.42,
+      "previsao_chuva": 89.9,
+      "prioridade_operacional": "critica",
+      "status_operacional": "interditado",
+      "historico_rocadas": 6,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.375936",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-093",
+      "km_inicial": 46.0,
+      "km_final": 46.5,
+      "latitude": -13.379414,
+      "longitude": -38.084745,
+      "zona": "critica",
+      "valor_evi": 0.742,
+      "dias_sem_manutencao": 150,
+      "indice_risco_operacional": 91.29,
+      "previsao_chuva": 85.7,
+      "prioridade_operacional": "critica",
+      "status_operacional": "interditado",
+      "historico_rocadas": 11,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.375936",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "EVI elevado - monitorar inundações sazonais",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-094",
+      "km_inicial": 46.5,
+      "km_final": 47.0,
+      "latitude": -13.383919,
+      "longitude": -38.080122,
+      "zona": "critica",
+      "valor_evi": 0.5,
+      "dias_sem_manutencao": 139,
+      "indice_risco_operacional": 85.46,
+      "previsao_chuva": 59.4,
+      "prioridade_operacional": "critica",
+      "status_operacional": "interditado",
+      "historico_rocadas": 10,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.375936",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-095",
+      "km_inicial": 47.0,
+      "km_final": 47.5,
+      "latitude": -13.388423,
+      "longitude": -38.0755,
+      "zona": "critica",
+      "valor_evi": 0.536,
+      "dias_sem_manutencao": 98,
+      "indice_risco_operacional": 85.04,
+      "previsao_chuva": 77.4,
+      "prioridade_operacional": "critica",
+      "status_operacional": "interditado",
+      "historico_rocadas": 10,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.375936",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-096",
+      "km_inicial": 47.5,
+      "km_final": 48.0,
+      "latitude": -13.392928,
+      "longitude": -38.070878,
+      "zona": "critica",
+      "valor_evi": 0.688,
+      "dias_sem_manutencao": 130,
+      "indice_risco_operacional": 94.67,
+      "previsao_chuva": 65.9,
+      "prioridade_operacional": "critica",
+      "status_operacional": "interditado",
+      "historico_rocadas": 5,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.375936",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "EVI elevado - monitorar inundações sazonais",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-097",
+      "km_inicial": 48.0,
+      "km_final": 48.5,
+      "latitude": -13.397432,
+      "longitude": -38.066255,
+      "zona": "critica",
+      "valor_evi": 0.732,
+      "dias_sem_manutencao": 143,
+      "indice_risco_operacional": 90.69,
+      "previsao_chuva": 75.4,
+      "prioridade_operacional": "critica",
+      "status_operacional": "interditado",
+      "historico_rocadas": 7,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.375936",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "EVI elevado - monitorar inundações sazonais",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-098",
+      "km_inicial": 48.5,
+      "km_final": 49.0,
+      "latitude": -13.401937,
+      "longitude": -38.061633,
+      "zona": "critica",
+      "valor_evi": 0.637,
+      "dias_sem_manutencao": 148,
+      "indice_risco_operacional": 98.84,
+      "previsao_chuva": 79.6,
+      "prioridade_operacional": "critica",
+      "status_operacional": "interditado",
+      "historico_rocadas": 8,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.375936",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-099",
+      "km_inicial": 49.0,
+      "km_final": 49.5,
+      "latitude": -13.406441,
+      "longitude": -38.057011,
+      "zona": "critica",
+      "valor_evi": 0.655,
+      "dias_sem_manutencao": 158,
+      "indice_risco_operacional": 99.16,
+      "previsao_chuva": 77.3,
+      "prioridade_operacional": "critica",
+      "status_operacional": "interditado",
+      "historico_rocadas": 7,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.375936",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "EVI elevado - monitorar inundações sazonais",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-100",
+      "km_inicial": 49.5,
+      "km_final": 50.0,
+      "latitude": -13.410946,
+      "longitude": -38.052388,
+      "zona": "critica",
+      "valor_evi": 0.666,
+      "dias_sem_manutencao": 136,
+      "indice_risco_operacional": 87.97,
+      "previsao_chuva": 79.3,
+      "prioridade_operacional": "critica",
+      "status_operacional": "interditado",
+      "historico_rocadas": 9,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.375936",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "EVI elevado - monitorar inundações sazonais",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-101",
+      "km_inicial": 50.0,
+      "km_final": 50.5,
+      "latitude": -13.41545,
+      "longitude": -38.047766,
+      "zona": "critica",
+      "valor_evi": 0.565,
+      "dias_sem_manutencao": 97,
+      "indice_risco_operacional": 81.42,
+      "previsao_chuva": 77.2,
+      "prioridade_operacional": "critica",
+      "status_operacional": "parcialmente_interditado",
+      "historico_rocadas": 6,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.375936",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-102",
+      "km_inicial": 50.5,
+      "km_final": 51.0,
+      "latitude": -13.419955,
+      "longitude": -38.043144,
+      "zona": "critica",
+      "valor_evi": 0.735,
+      "dias_sem_manutencao": 73,
+      "indice_risco_operacional": 90.08,
+      "previsao_chuva": 79.7,
+      "prioridade_operacional": "critica",
+      "status_operacional": "interditado",
+      "historico_rocadas": 14,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.375936",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "EVI elevado - monitorar inundações sazonais",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-103",
+      "km_inicial": 51.0,
+      "km_final": 51.5,
+      "latitude": -13.424459,
+      "longitude": -38.038521,
+      "zona": "critica",
+      "valor_evi": 0.675,
+      "dias_sem_manutencao": 81,
+      "indice_risco_operacional": 88.84,
+      "previsao_chuva": 80.2,
+      "prioridade_operacional": "critica",
+      "status_operacional": "interditado",
+      "historico_rocadas": 11,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.375936",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "EVI elevado - monitorar inundações sazonais",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-104",
+      "km_inicial": 51.5,
+      "km_final": 52.0,
+      "latitude": -13.428964,
+      "longitude": -38.033899,
+      "zona": "critica",
+      "valor_evi": 0.795,
+      "dias_sem_manutencao": 87,
+      "indice_risco_operacional": 100,
+      "previsao_chuva": 75.4,
+      "prioridade_operacional": "critica",
+      "status_operacional": "interditado",
+      "historico_rocadas": 12,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.375936",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "EVI elevado - monitorar inundações sazonais",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-105",
+      "km_inicial": 52.0,
+      "km_final": 52.5,
+      "latitude": -13.433468,
+      "longitude": -38.029277,
+      "zona": "critica",
+      "valor_evi": 0.774,
+      "dias_sem_manutencao": 116,
+      "indice_risco_operacional": 100,
+      "previsao_chuva": 73.5,
+      "prioridade_operacional": "critica",
+      "status_operacional": "interditado",
+      "historico_rocadas": 7,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.375936",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "EVI elevado - monitorar inundações sazonais",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-106",
+      "km_inicial": 52.5,
+      "km_final": 53.0,
+      "latitude": -13.437973,
+      "longitude": -38.024654,
+      "zona": "critica",
+      "valor_evi": 0.642,
+      "dias_sem_manutencao": 71,
+      "indice_risco_operacional": 88.58,
+      "previsao_chuva": 63.2,
+      "prioridade_operacional": "critica",
+      "status_operacional": "interditado",
+      "historico_rocadas": 12,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.375936",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-107",
+      "km_inicial": 53.0,
+      "km_final": 53.5,
+      "latitude": -13.442477,
+      "longitude": -38.020032,
+      "zona": "critica",
+      "valor_evi": 0.785,
+      "dias_sem_manutencao": 109,
+      "indice_risco_operacional": 96.24,
+      "previsao_chuva": 85.6,
+      "prioridade_operacional": "critica",
+      "status_operacional": "interditado",
+      "historico_rocadas": 12,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.375936",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "EVI elevado - monitorar inundações sazonais",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-108",
+      "km_inicial": 53.5,
+      "km_final": 54.0,
+      "latitude": -13.446982,
+      "longitude": -38.01541,
+      "zona": "critica",
+      "valor_evi": 0.684,
+      "dias_sem_manutencao": 124,
+      "indice_risco_operacional": 92.8,
+      "previsao_chuva": 80.1,
+      "prioridade_operacional": "critica",
+      "status_operacional": "interditado",
+      "historico_rocadas": 9,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.375936",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "EVI elevado - monitorar inundações sazonais",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-109",
+      "km_inicial": 54.0,
+      "km_final": 54.5,
+      "latitude": -13.451486,
+      "longitude": -38.010787,
+      "zona": "critica",
+      "valor_evi": 0.632,
+      "dias_sem_manutencao": 102,
+      "indice_risco_operacional": 86.05,
+      "previsao_chuva": 71.4,
+      "prioridade_operacional": "critica",
+      "status_operacional": "interditado",
+      "historico_rocadas": 11,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.375936",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-110",
+      "km_inicial": 54.5,
+      "km_final": 55.0,
+      "latitude": -13.455991,
+      "longitude": -38.006165,
+      "zona": "critica",
+      "valor_evi": 0.628,
+      "dias_sem_manutencao": 93,
+      "indice_risco_operacional": 92.1,
+      "previsao_chuva": 66.1,
+      "prioridade_operacional": "critica",
+      "status_operacional": "interditado",
+      "historico_rocadas": 9,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.375936",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-111",
+      "km_inicial": 55.0,
+      "km_final": 55.5,
+      "latitude": -13.460495,
+      "longitude": -38.001543,
+      "zona": "critica",
+      "valor_evi": 0.618,
+      "dias_sem_manutencao": 74,
+      "indice_risco_operacional": 89.53,
+      "previsao_chuva": 78.8,
+      "prioridade_operacional": "critica",
+      "status_operacional": "interditado",
+      "historico_rocadas": 11,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.375936",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-112",
+      "km_inicial": 55.5,
+      "km_final": 56.0,
+      "latitude": -13.465,
+      "longitude": -37.99692,
+      "zona": "critica",
+      "valor_evi": 0.67,
+      "dias_sem_manutencao": 108,
+      "indice_risco_operacional": 83.44,
+      "previsao_chuva": 85.8,
+      "prioridade_operacional": "critica",
+      "status_operacional": "parcialmente_interditado",
+      "historico_rocadas": 8,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.375936",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "EVI elevado - monitorar inundações sazonais",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-113",
+      "km_inicial": 56.0,
+      "km_final": 56.5,
+      "latitude": -13.469505,
+      "longitude": -37.992298,
+      "zona": "critica",
+      "valor_evi": 0.587,
+      "dias_sem_manutencao": 149,
+      "indice_risco_operacional": 100,
+      "previsao_chuva": 80.3,
+      "prioridade_operacional": "critica",
+      "status_operacional": "interditado",
+      "historico_rocadas": 3,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.375936",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-114",
+      "km_inicial": 56.5,
+      "km_final": 57.0,
+      "latitude": -13.474009,
+      "longitude": -37.987676,
+      "zona": "critica",
+      "valor_evi": 0.589,
+      "dias_sem_manutencao": 118,
+      "indice_risco_operacional": 100,
+      "previsao_chuva": 72.1,
+      "prioridade_operacional": "critica",
+      "status_operacional": "interditado",
+      "historico_rocadas": 5,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.375936",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-115",
+      "km_inicial": 57.0,
+      "km_final": 57.5,
+      "latitude": -13.478514,
+      "longitude": -37.983053,
+      "zona": "critica",
+      "valor_evi": 0.713,
+      "dias_sem_manutencao": 111,
+      "indice_risco_operacional": 93.75,
+      "previsao_chuva": 77.3,
+      "prioridade_operacional": "critica",
+      "status_operacional": "interditado",
+      "historico_rocadas": 7,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.375936",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "EVI elevado - monitorar inundações sazonais",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-116",
+      "km_inicial": 57.5,
+      "km_final": 58.0,
+      "latitude": -13.483018,
+      "longitude": -37.978431,
+      "zona": "critica",
+      "valor_evi": 0.69,
+      "dias_sem_manutencao": 93,
+      "indice_risco_operacional": 87.89,
+      "previsao_chuva": 76.7,
+      "prioridade_operacional": "critica",
+      "status_operacional": "interditado",
+      "historico_rocadas": 13,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.375936",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "EVI elevado - monitorar inundações sazonais",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-117",
+      "km_inicial": 58.0,
+      "km_final": 58.5,
+      "latitude": -13.487523,
+      "longitude": -37.973809,
+      "zona": "critica",
+      "valor_evi": 0.673,
+      "dias_sem_manutencao": 148,
+      "indice_risco_operacional": 97.37,
+      "previsao_chuva": 73.0,
+      "prioridade_operacional": "critica",
+      "status_operacional": "interditado",
+      "historico_rocadas": 7,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.375936",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "EVI elevado - monitorar inundações sazonais",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-118",
+      "km_inicial": 58.5,
+      "km_final": 59.0,
+      "latitude": -13.492027,
+      "longitude": -37.969186,
+      "zona": "critica",
+      "valor_evi": 0.767,
+      "dias_sem_manutencao": 138,
+      "indice_risco_operacional": 93.14,
+      "previsao_chuva": 78.5,
+      "prioridade_operacional": "critica",
+      "status_operacional": "interditado",
+      "historico_rocadas": 10,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.375936",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "EVI elevado - monitorar inundações sazonais",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-119",
+      "km_inicial": 59.0,
+      "km_final": 59.5,
+      "latitude": -13.496532,
+      "longitude": -37.964564,
+      "zona": "critica",
+      "valor_evi": 0.693,
+      "dias_sem_manutencao": 92,
+      "indice_risco_operacional": 100,
+      "previsao_chuva": 76.8,
+      "prioridade_operacional": "critica",
+      "status_operacional": "interditado",
+      "historico_rocadas": 7,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.375936",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "EVI elevado - monitorar inundações sazonais",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-120",
+      "km_inicial": 59.5,
+      "km_final": 60.0,
+      "latitude": -13.501036,
+      "longitude": -37.959941,
+      "zona": "critica",
+      "valor_evi": 0.515,
+      "dias_sem_manutencao": 82,
+      "indice_risco_operacional": 83.29,
+      "previsao_chuva": 73.5,
+      "prioridade_operacional": "critica",
+      "status_operacional": "parcialmente_interditado",
+      "historico_rocadas": 6,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.375936",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-121",
+      "km_inicial": 60.0,
+      "km_final": 60.5,
+      "latitude": -13.505541,
+      "longitude": -37.955319,
+      "zona": "critica",
+      "valor_evi": 0.568,
+      "dias_sem_manutencao": 102,
+      "indice_risco_operacional": 92.02,
+      "previsao_chuva": 60.9,
+      "prioridade_operacional": "critica",
+      "status_operacional": "interditado",
+      "historico_rocadas": 5,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.376936",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-122",
+      "km_inicial": 60.5,
+      "km_final": 61.0,
+      "latitude": -13.510045,
+      "longitude": -37.950697,
+      "zona": "critica",
+      "valor_evi": 0.594,
+      "dias_sem_manutencao": 144,
+      "indice_risco_operacional": 100,
+      "previsao_chuva": 85.1,
+      "prioridade_operacional": "critica",
+      "status_operacional": "interditado",
+      "historico_rocadas": 7,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.376936",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-123",
+      "km_inicial": 61.0,
+      "km_final": 61.5,
+      "latitude": -13.51455,
+      "longitude": -37.946074,
+      "zona": "critica",
+      "valor_evi": 0.792,
+      "dias_sem_manutencao": 98,
+      "indice_risco_operacional": 97.57,
+      "previsao_chuva": 87.6,
+      "prioridade_operacional": "critica",
+      "status_operacional": "interditado",
+      "historico_rocadas": 8,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.376936",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "EVI elevado - monitorar inundações sazonais",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-124",
+      "km_inicial": 61.5,
+      "km_final": 62.0,
+      "latitude": -13.519054,
+      "longitude": -37.941452,
+      "zona": "critica",
+      "valor_evi": 0.702,
+      "dias_sem_manutencao": 153,
+      "indice_risco_operacional": 97.78,
+      "previsao_chuva": 80.6,
+      "prioridade_operacional": "critica",
+      "status_operacional": "interditado",
+      "historico_rocadas": 8,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.376936",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "EVI elevado - monitorar inundações sazonais",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-125",
+      "km_inicial": 62.0,
+      "km_final": 62.5,
+      "latitude": -13.523559,
+      "longitude": -37.93683,
+      "zona": "critica",
+      "valor_evi": 0.711,
+      "dias_sem_manutencao": 143,
+      "indice_risco_operacional": 100,
+      "previsao_chuva": 53.4,
+      "prioridade_operacional": "critica",
+      "status_operacional": "interditado",
+      "historico_rocadas": 6,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.376936",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "EVI elevado - monitorar inundações sazonais",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-126",
+      "km_inicial": 62.5,
+      "km_final": 63.0,
+      "latitude": -13.528063,
+      "longitude": -37.932207,
+      "zona": "critica",
+      "valor_evi": 0.707,
+      "dias_sem_manutencao": 129,
+      "indice_risco_operacional": 93.64,
+      "previsao_chuva": 82.6,
+      "prioridade_operacional": "critica",
+      "status_operacional": "interditado",
+      "historico_rocadas": 9,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.376936",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "EVI elevado - monitorar inundações sazonais",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-127",
+      "km_inicial": 63.0,
+      "km_final": 63.5,
+      "latitude": -13.532568,
+      "longitude": -37.927585,
+      "zona": "critica",
+      "valor_evi": 0.628,
+      "dias_sem_manutencao": 100,
+      "indice_risco_operacional": 90.87,
+      "previsao_chuva": 66.1,
+      "prioridade_operacional": "critica",
+      "status_operacional": "interditado",
+      "historico_rocadas": 10,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.376936",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-128",
+      "km_inicial": 63.5,
+      "km_final": 64.0,
+      "latitude": -13.537072,
+      "longitude": -37.922963,
+      "zona": "critica",
+      "valor_evi": 0.587,
+      "dias_sem_manutencao": 147,
+      "indice_risco_operacional": 90.48,
+      "previsao_chuva": 67.8,
+      "prioridade_operacional": "critica",
+      "status_operacional": "interditado",
+      "historico_rocadas": 3,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.376936",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-129",
+      "km_inicial": 64.0,
+      "km_final": 64.5,
+      "latitude": -13.541577,
+      "longitude": -37.91834,
+      "zona": "critica",
+      "valor_evi": 0.601,
+      "dias_sem_manutencao": 120,
+      "indice_risco_operacional": 92.26,
+      "previsao_chuva": 69.2,
+      "prioridade_operacional": "critica",
+      "status_operacional": "interditado",
+      "historico_rocadas": 7,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.376936",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-130",
+      "km_inicial": 64.5,
+      "km_final": 65.0,
+      "latitude": -13.546081,
+      "longitude": -37.913718,
+      "zona": "critica",
+      "valor_evi": 0.643,
+      "dias_sem_manutencao": 69,
+      "indice_risco_operacional": 86.21,
+      "previsao_chuva": 72.0,
+      "prioridade_operacional": "critica",
+      "status_operacional": "interditado",
+      "historico_rocadas": 13,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.376936",
+        "observacoes": [
+          "Zona de vegetação densa - priorizar roçada",
+          "Risco operacional crítico"
+        ]
+      }
+    },
+    {
+      "id": "MT-131",
+      "km_inicial": 65.0,
+      "km_final": 65.5,
+      "latitude": -13.550586,
+      "longitude": -37.909096,
+      "zona": "recuperada",
+      "valor_evi": 0.348,
+      "dias_sem_manutencao": 18,
+      "indice_risco_operacional": 51.99,
+      "previsao_chuva": 70.2,
+      "prioridade_operacional": "alta",
+      "status_operacional": "liberado",
+      "historico_rocadas": 9,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.376936",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-132",
+      "km_inicial": 65.5,
+      "km_final": 66.0,
+      "latitude": -13.55509,
+      "longitude": -37.904473,
+      "zona": "recuperada",
+      "valor_evi": 0.328,
+      "dias_sem_manutencao": 17,
+      "indice_risco_operacional": 35.48,
+      "previsao_chuva": 87.4,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 8,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.376936",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-133",
+      "km_inicial": 66.0,
+      "km_final": 66.5,
+      "latitude": -13.559595,
+      "longitude": -37.899851,
+      "zona": "recuperada",
+      "valor_evi": 0.301,
+      "dias_sem_manutencao": 18,
+      "indice_risco_operacional": 45.14,
+      "previsao_chuva": 91.5,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 6,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.376936",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-134",
+      "km_inicial": 66.5,
+      "km_final": 67.0,
+      "latitude": -13.564099,
+      "longitude": -37.895229,
+      "zona": "recuperada",
+      "valor_evi": 0.695,
+      "dias_sem_manutencao": 11,
+      "indice_risco_operacional": 51.6,
+      "previsao_chuva": 65.3,
+      "prioridade_operacional": "alta",
+      "status_operacional": "liberado",
+      "historico_rocadas": 8,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.376936",
+        "observacoes": [
+          "EVI elevado - monitorar inundações sazonais"
+        ]
+      }
+    },
+    {
+      "id": "MT-135",
+      "km_inicial": 67.0,
+      "km_final": 67.5,
+      "latitude": -13.568604,
+      "longitude": -37.890606,
+      "zona": "recuperada",
+      "valor_evi": 0.417,
+      "dias_sem_manutencao": 31,
+      "indice_risco_operacional": 37.21,
+      "previsao_chuva": 84.2,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 7,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.376936",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-136",
+      "km_inicial": 67.5,
+      "km_final": 68.0,
+      "latitude": -13.573108,
+      "longitude": -37.885984,
+      "zona": "recuperada",
+      "valor_evi": 0.371,
+      "dias_sem_manutencao": 18,
+      "indice_risco_operacional": 45.26,
+      "previsao_chuva": 71.3,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 8,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.376936",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-137",
+      "km_inicial": 68.0,
+      "km_final": 68.5,
+      "latitude": -13.577613,
+      "longitude": -37.881362,
+      "zona": "recuperada",
+      "valor_evi": 0.267,
+      "dias_sem_manutencao": 31,
+      "indice_risco_operacional": 42.35,
+      "previsao_chuva": 79.9,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 5,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.376936",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-138",
+      "km_inicial": 68.5,
+      "km_final": 69.0,
+      "latitude": -13.582117,
+      "longitude": -37.876739,
+      "zona": "recuperada",
+      "valor_evi": 0.396,
+      "dias_sem_manutencao": 32,
+      "indice_risco_operacional": 42.95,
+      "previsao_chuva": 96.5,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 6,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.376936",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-139",
+      "km_inicial": 69.0,
+      "km_final": 69.5,
+      "latitude": -13.586622,
+      "longitude": -37.872117,
+      "zona": "recuperada",
+      "valor_evi": 0.488,
+      "dias_sem_manutencao": 25,
+      "indice_risco_operacional": 37.45,
+      "previsao_chuva": 77.9,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 7,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.376936",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-140",
+      "km_inicial": 69.5,
+      "km_final": 70.0,
+      "latitude": -13.591126,
+      "longitude": -37.867495,
+      "zona": "recuperada",
+      "valor_evi": 0.607,
+      "dias_sem_manutencao": 36,
+      "indice_risco_operacional": 50.78,
+      "previsao_chuva": 81.3,
+      "prioridade_operacional": "alta",
+      "status_operacional": "liberado",
+      "historico_rocadas": 9,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.376936",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-141",
+      "km_inicial": 70.0,
+      "km_final": 70.5,
+      "latitude": -13.595631,
+      "longitude": -37.862872,
+      "zona": "recuperada",
+      "valor_evi": 0.22,
+      "dias_sem_manutencao": 31,
+      "indice_risco_operacional": 34.54,
+      "previsao_chuva": 59.6,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 6,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.376936",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-142",
+      "km_inicial": 70.5,
+      "km_final": 71.0,
+      "latitude": -13.600135,
+      "longitude": -37.85825,
+      "zona": "recuperada",
+      "valor_evi": 0.311,
+      "dias_sem_manutencao": 15,
+      "indice_risco_operacional": 36.85,
+      "previsao_chuva": 64.3,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 8,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.376936",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-143",
+      "km_inicial": 71.0,
+      "km_final": 71.5,
+      "latitude": -13.60464,
+      "longitude": -37.853628,
+      "zona": "recuperada",
+      "valor_evi": 0.24,
+      "dias_sem_manutencao": 17,
+      "indice_risco_operacional": 38.9,
+      "previsao_chuva": 84.3,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 5,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.376936",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-144",
+      "km_inicial": 71.5,
+      "km_final": 72.0,
+      "latitude": -13.609144,
+      "longitude": -37.849005,
+      "zona": "recuperada",
+      "valor_evi": 0.351,
+      "dias_sem_manutencao": 25,
+      "indice_risco_operacional": 44.39,
+      "previsao_chuva": 63.4,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 8,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.376936",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-145",
+      "km_inicial": 72.0,
+      "km_final": 72.5,
+      "latitude": -13.613649,
+      "longitude": -37.844383,
+      "zona": "recuperada",
+      "valor_evi": 0.202,
+      "dias_sem_manutencao": 18,
+      "indice_risco_operacional": 29.42,
+      "previsao_chuva": 65.9,
+      "prioridade_operacional": "baixa",
+      "status_operacional": "liberado",
+      "historico_rocadas": 7,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.376936",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-146",
+      "km_inicial": 72.5,
+      "km_final": 73.0,
+      "latitude": -13.618153,
+      "longitude": -37.839761,
+      "zona": "recuperada",
+      "valor_evi": 0.458,
+      "dias_sem_manutencao": 19,
+      "indice_risco_operacional": 47.65,
+      "previsao_chuva": 61.7,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 7,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.376936",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-147",
+      "km_inicial": 73.0,
+      "km_final": 73.5,
+      "latitude": -13.622658,
+      "longitude": -37.835138,
+      "zona": "recuperada",
+      "valor_evi": 0.309,
+      "dias_sem_manutencao": 10,
+      "indice_risco_operacional": 29.03,
+      "previsao_chuva": 81.6,
+      "prioridade_operacional": "baixa",
+      "status_operacional": "liberado",
+      "historico_rocadas": 9,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.376936",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-148",
+      "km_inicial": 73.5,
+      "km_final": 74.0,
+      "latitude": -13.627162,
+      "longitude": -37.830516,
+      "zona": "recuperada",
+      "valor_evi": 0.304,
+      "dias_sem_manutencao": 14,
+      "indice_risco_operacional": 35.69,
+      "previsao_chuva": 88.6,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 7,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.376936",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-149",
+      "km_inicial": 74.0,
+      "km_final": 74.5,
+      "latitude": -13.631667,
+      "longitude": -37.825894,
+      "zona": "recuperada",
+      "valor_evi": 0.451,
+      "dias_sem_manutencao": 24,
+      "indice_risco_operacional": 39.16,
+      "previsao_chuva": 63.0,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 8,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.376936",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-150",
+      "km_inicial": 74.5,
+      "km_final": 75.0,
+      "latitude": -13.636171,
+      "longitude": -37.821271,
+      "zona": "recuperada",
+      "valor_evi": 0.456,
+      "dias_sem_manutencao": 26,
+      "indice_risco_operacional": 43.84,
+      "previsao_chuva": 78.7,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 9,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.376936",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-151",
+      "km_inicial": 75.0,
+      "km_final": 75.5,
+      "latitude": -13.640676,
+      "longitude": -37.816649,
+      "zona": "recuperada",
+      "valor_evi": 0.393,
+      "dias_sem_manutencao": 27,
+      "indice_risco_operacional": 48.59,
+      "previsao_chuva": 70.7,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 8,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.376936",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-152",
+      "km_inicial": 75.5,
+      "km_final": 76.0,
+      "latitude": -13.64518,
+      "longitude": -37.812027,
+      "zona": "recuperada",
+      "valor_evi": 0.571,
+      "dias_sem_manutencao": 15,
+      "indice_risco_operacional": 49.5,
+      "previsao_chuva": 85.7,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 7,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.376936",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-153",
+      "km_inicial": 76.0,
+      "km_final": 76.5,
+      "latitude": -13.649685,
+      "longitude": -37.807404,
+      "zona": "recuperada",
+      "valor_evi": 0.364,
+      "dias_sem_manutencao": 10,
+      "indice_risco_operacional": 36.87,
+      "previsao_chuva": 81.2,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 6,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.376936",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-154",
+      "km_inicial": 76.5,
+      "km_final": 77.0,
+      "latitude": -13.654189,
+      "longitude": -37.802782,
+      "zona": "recuperada",
+      "valor_evi": 0.422,
+      "dias_sem_manutencao": 21,
+      "indice_risco_operacional": 41.43,
+      "previsao_chuva": 68.9,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 6,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.377940",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-155",
+      "km_inicial": 77.0,
+      "km_final": 77.5,
+      "latitude": -13.658694,
+      "longitude": -37.79816,
+      "zona": "recuperada",
+      "valor_evi": 0.174,
+      "dias_sem_manutencao": 27,
+      "indice_risco_operacional": 39.38,
+      "previsao_chuva": 78.0,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 5,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.377940",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-156",
+      "km_inicial": 77.5,
+      "km_final": 78.0,
+      "latitude": -13.663198,
+      "longitude": -37.793537,
+      "zona": "recuperada",
+      "valor_evi": 0.457,
+      "dias_sem_manutencao": 11,
+      "indice_risco_operacional": 39.2,
+      "previsao_chuva": 61.3,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 8,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.377940",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-157",
+      "km_inicial": 78.0,
+      "km_final": 78.5,
+      "latitude": -13.667703,
+      "longitude": -37.788915,
+      "zona": "recuperada",
+      "valor_evi": 0.306,
+      "dias_sem_manutencao": 23,
+      "indice_risco_operacional": 31.03,
+      "previsao_chuva": 79.8,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 7,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.377940",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-158",
+      "km_inicial": 78.5,
+      "km_final": 79.0,
+      "latitude": -13.672207,
+      "longitude": -37.784293,
+      "zona": "recuperada",
+      "valor_evi": 0.387,
+      "dias_sem_manutencao": 20,
+      "indice_risco_operacional": 45.12,
+      "previsao_chuva": 63.0,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 7,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.377940",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-159",
+      "km_inicial": 79.0,
+      "km_final": 79.5,
+      "latitude": -13.676712,
+      "longitude": -37.77967,
+      "zona": "recuperada",
+      "valor_evi": 0.477,
+      "dias_sem_manutencao": 35,
+      "indice_risco_operacional": 46.03,
+      "previsao_chuva": 99.0,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 9,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.377940",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-160",
+      "km_inicial": 79.5,
+      "km_final": 80.0,
+      "latitude": -13.681216,
+      "longitude": -37.775048,
+      "zona": "recuperada",
+      "valor_evi": 0.446,
+      "dias_sem_manutencao": 29,
+      "indice_risco_operacional": 50.31,
+      "previsao_chuva": 98.7,
+      "prioridade_operacional": "alta",
+      "status_operacional": "liberado",
+      "historico_rocadas": 5,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.377940",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-161",
+      "km_inicial": 80.0,
+      "km_final": 80.5,
+      "latitude": -13.685721,
+      "longitude": -37.770426,
+      "zona": "monitoramento",
+      "valor_evi": 0.432,
+      "dias_sem_manutencao": 40,
+      "indice_risco_operacional": 50.45,
+      "previsao_chuva": 86.4,
+      "prioridade_operacional": "alta",
+      "status_operacional": "liberado",
+      "historico_rocadas": 9,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.377940",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-162",
+      "km_inicial": 80.5,
+      "km_final": 81.0,
+      "latitude": -13.690225,
+      "longitude": -37.765803,
+      "zona": "monitoramento",
+      "valor_evi": 0.469,
+      "dias_sem_manutencao": 58,
+      "indice_risco_operacional": 47.7,
+      "previsao_chuva": 72.5,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 6,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.377940",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-163",
+      "km_inicial": 81.0,
+      "km_final": 81.5,
+      "latitude": -13.69473,
+      "longitude": -37.761181,
+      "zona": "monitoramento",
+      "valor_evi": 0.431,
+      "dias_sem_manutencao": 20,
+      "indice_risco_operacional": 41.97,
+      "previsao_chuva": 96.3,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 10,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.377940",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-164",
+      "km_inicial": 81.5,
+      "km_final": 82.0,
+      "latitude": -13.699234,
+      "longitude": -37.756559,
+      "zona": "monitoramento",
+      "valor_evi": 0.595,
+      "dias_sem_manutencao": 52,
+      "indice_risco_operacional": 59.52,
+      "previsao_chuva": 66.9,
+      "prioridade_operacional": "alta",
+      "status_operacional": "liberado",
+      "historico_rocadas": 8,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.377940",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-165",
+      "km_inicial": 82.0,
+      "km_final": 82.5,
+      "latitude": -13.703739,
+      "longitude": -37.751936,
+      "zona": "monitoramento",
+      "valor_evi": 0.383,
+      "dias_sem_manutencao": 46,
+      "indice_risco_operacional": 53.05,
+      "previsao_chuva": 78.9,
+      "prioridade_operacional": "alta",
+      "status_operacional": "liberado",
+      "historico_rocadas": 8,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.377940",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-166",
+      "km_inicial": 82.5,
+      "km_final": 83.0,
+      "latitude": -13.708243,
+      "longitude": -37.747314,
+      "zona": "monitoramento",
+      "valor_evi": 0.605,
+      "dias_sem_manutencao": 57,
+      "indice_risco_operacional": 58.33,
+      "previsao_chuva": 79.6,
+      "prioridade_operacional": "alta",
+      "status_operacional": "liberado",
+      "historico_rocadas": 7,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.377940",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-167",
+      "km_inicial": 83.0,
+      "km_final": 83.5,
+      "latitude": -13.712748,
+      "longitude": -37.742691,
+      "zona": "monitoramento",
+      "valor_evi": 0.554,
+      "dias_sem_manutencao": 35,
+      "indice_risco_operacional": 54.57,
+      "previsao_chuva": 96.0,
+      "prioridade_operacional": "alta",
+      "status_operacional": "liberado",
+      "historico_rocadas": 8,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.377940",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-168",
+      "km_inicial": 83.5,
+      "km_final": 84.0,
+      "latitude": -13.717252,
+      "longitude": -37.738069,
+      "zona": "monitoramento",
+      "valor_evi": 0.46,
+      "dias_sem_manutencao": 48,
+      "indice_risco_operacional": 47.94,
+      "previsao_chuva": 75.1,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 8,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.377940",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-169",
+      "km_inicial": 84.0,
+      "km_final": 84.5,
+      "latitude": -13.721757,
+      "longitude": -37.733447,
+      "zona": "monitoramento",
+      "valor_evi": 0.554,
+      "dias_sem_manutencao": 52,
+      "indice_risco_operacional": 53.37,
+      "previsao_chuva": 59.3,
+      "prioridade_operacional": "alta",
+      "status_operacional": "liberado",
+      "historico_rocadas": 6,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.377940",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-170",
+      "km_inicial": 84.5,
+      "km_final": 85.0,
+      "latitude": -13.726261,
+      "longitude": -37.728824,
+      "zona": "monitoramento",
+      "valor_evi": 0.411,
+      "dias_sem_manutencao": 41,
+      "indice_risco_operacional": 51.14,
+      "previsao_chuva": 65.5,
+      "prioridade_operacional": "alta",
+      "status_operacional": "liberado",
+      "historico_rocadas": 6,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.377940",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-171",
+      "km_inicial": 85.0,
+      "km_final": 85.5,
+      "latitude": -13.730766,
+      "longitude": -37.724202,
+      "zona": "monitoramento",
+      "valor_evi": 0.457,
+      "dias_sem_manutencao": 54,
+      "indice_risco_operacional": 55.99,
+      "previsao_chuva": 69.4,
+      "prioridade_operacional": "alta",
+      "status_operacional": "liberado",
+      "historico_rocadas": 8,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.377940",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-172",
+      "km_inicial": 85.5,
+      "km_final": 86.0,
+      "latitude": -13.73527,
+      "longitude": -37.71958,
+      "zona": "monitoramento",
+      "valor_evi": 0.736,
+      "dias_sem_manutencao": 47,
+      "indice_risco_operacional": 56.37,
+      "previsao_chuva": 68.3,
+      "prioridade_operacional": "critica",
+      "status_operacional": "em_manutencao",
+      "historico_rocadas": 7,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.377940",
+        "observacoes": [
+          "EVI elevado - monitorar inundações sazonais"
+        ]
+      }
+    },
+    {
+      "id": "MT-173",
+      "km_inicial": 86.0,
+      "km_final": 86.5,
+      "latitude": -13.739775,
+      "longitude": -37.714957,
+      "zona": "monitoramento",
+      "valor_evi": 0.623,
+      "dias_sem_manutencao": 30,
+      "indice_risco_operacional": 54.59,
+      "previsao_chuva": 65.5,
+      "prioridade_operacional": "alta",
+      "status_operacional": "liberado",
+      "historico_rocadas": 10,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.377940",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-174",
+      "km_inicial": 86.5,
+      "km_final": 87.0,
+      "latitude": -13.744279,
+      "longitude": -37.710335,
+      "zona": "monitoramento",
+      "valor_evi": 0.44,
+      "dias_sem_manutencao": 40,
+      "indice_risco_operacional": 45.09,
+      "previsao_chuva": 74.5,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 5,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.377940",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-175",
+      "km_inicial": 87.0,
+      "km_final": 87.5,
+      "latitude": -13.748784,
+      "longitude": -37.705713,
+      "zona": "monitoramento",
+      "valor_evi": 0.419,
+      "dias_sem_manutencao": 58,
+      "indice_risco_operacional": 58.24,
+      "previsao_chuva": 86.2,
+      "prioridade_operacional": "alta",
+      "status_operacional": "liberado",
+      "historico_rocadas": 9,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.377940",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-176",
+      "km_inicial": 87.5,
+      "km_final": 88.0,
+      "latitude": -13.753288,
+      "longitude": -37.70109,
+      "zona": "monitoramento",
+      "valor_evi": 0.515,
+      "dias_sem_manutencao": 59,
+      "indice_risco_operacional": 55.04,
+      "previsao_chuva": 65.3,
+      "prioridade_operacional": "alta",
+      "status_operacional": "liberado",
+      "historico_rocadas": 7,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.377940",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-177",
+      "km_inicial": 88.0,
+      "km_final": 88.5,
+      "latitude": -13.757793,
+      "longitude": -37.696468,
+      "zona": "monitoramento",
+      "valor_evi": 0.569,
+      "dias_sem_manutencao": 47,
+      "indice_risco_operacional": 54.27,
+      "previsao_chuva": 61.3,
+      "prioridade_operacional": "alta",
+      "status_operacional": "liberado",
+      "historico_rocadas": 10,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.377940",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-178",
+      "km_inicial": 88.5,
+      "km_final": 89.0,
+      "latitude": -13.762297,
+      "longitude": -37.691846,
+      "zona": "monitoramento",
+      "valor_evi": 0.499,
+      "dias_sem_manutencao": 49,
+      "indice_risco_operacional": 48.64,
+      "previsao_chuva": 73.6,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 9,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.378940",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-179",
+      "km_inicial": 89.0,
+      "km_final": 89.5,
+      "latitude": -13.766802,
+      "longitude": -37.687223,
+      "zona": "monitoramento",
+      "valor_evi": 0.416,
+      "dias_sem_manutencao": 34,
+      "indice_risco_operacional": 56.84,
+      "previsao_chuva": 70.0,
+      "prioridade_operacional": "alta",
+      "status_operacional": "liberado",
+      "historico_rocadas": 7,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.378940",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-180",
+      "km_inicial": 89.5,
+      "km_final": 90.0,
+      "latitude": -13.771306,
+      "longitude": -37.682601,
+      "zona": "monitoramento",
+      "valor_evi": 0.467,
+      "dias_sem_manutencao": 32,
+      "indice_risco_operacional": 48.43,
+      "previsao_chuva": 64.2,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 8,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.378940",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-181",
+      "km_inicial": 90.0,
+      "km_final": 90.5,
+      "latitude": -13.775811,
+      "longitude": -37.677979,
+      "zona": "monitoramento",
+      "valor_evi": 0.587,
+      "dias_sem_manutencao": 43,
+      "indice_risco_operacional": 58.78,
+      "previsao_chuva": 92.3,
+      "prioridade_operacional": "alta",
+      "status_operacional": "liberado",
+      "historico_rocadas": 8,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.378940",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-182",
+      "km_inicial": 90.5,
+      "km_final": 91.0,
+      "latitude": -13.780315,
+      "longitude": -37.673356,
+      "zona": "monitoramento",
+      "valor_evi": 0.459,
+      "dias_sem_manutencao": 49,
+      "indice_risco_operacional": 54.44,
+      "previsao_chuva": 93.3,
+      "prioridade_operacional": "alta",
+      "status_operacional": "liberado",
+      "historico_rocadas": 6,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.378940",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-183",
+      "km_inicial": 91.0,
+      "km_final": 91.5,
+      "latitude": -13.78482,
+      "longitude": -37.668734,
+      "zona": "monitoramento",
+      "valor_evi": 0.602,
+      "dias_sem_manutencao": 55,
+      "indice_risco_operacional": 60.34,
+      "previsao_chuva": 76.1,
+      "prioridade_operacional": "alta",
+      "status_operacional": "liberado",
+      "historico_rocadas": 6,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.378940",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-184",
+      "km_inicial": 91.5,
+      "km_final": 92.0,
+      "latitude": -13.789324,
+      "longitude": -37.664112,
+      "zona": "monitoramento",
+      "valor_evi": 0.558,
+      "dias_sem_manutencao": 56,
+      "indice_risco_operacional": 57.49,
+      "previsao_chuva": 74.2,
+      "prioridade_operacional": "alta",
+      "status_operacional": "liberado",
+      "historico_rocadas": 8,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.378940",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-185",
+      "km_inicial": 92.0,
+      "km_final": 92.5,
+      "latitude": -13.793829,
+      "longitude": -37.659489,
+      "zona": "monitoramento",
+      "valor_evi": 0.45,
+      "dias_sem_manutencao": 33,
+      "indice_risco_operacional": 56.92,
+      "previsao_chuva": 59.4,
+      "prioridade_operacional": "alta",
+      "status_operacional": "liberado",
+      "historico_rocadas": 6,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.378940",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-186",
+      "km_inicial": 92.5,
+      "km_final": 93.0,
+      "latitude": -13.798333,
+      "longitude": -37.654867,
+      "zona": "monitoramento",
+      "valor_evi": 0.472,
+      "dias_sem_manutencao": 37,
+      "indice_risco_operacional": 51.68,
+      "previsao_chuva": 74.0,
+      "prioridade_operacional": "alta",
+      "status_operacional": "liberado",
+      "historico_rocadas": 8,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.379942",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-187",
+      "km_inicial": 93.0,
+      "km_final": 93.5,
+      "latitude": -13.802838,
+      "longitude": -37.650245,
+      "zona": "monitoramento",
+      "valor_evi": 0.39,
+      "dias_sem_manutencao": 49,
+      "indice_risco_operacional": 53.32,
+      "previsao_chuva": 68.6,
+      "prioridade_operacional": "alta",
+      "status_operacional": "liberado",
+      "historico_rocadas": 7,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.379942",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-188",
+      "km_inicial": 93.5,
+      "km_final": 94.0,
+      "latitude": -13.807342,
+      "longitude": -37.645622,
+      "zona": "monitoramento",
+      "valor_evi": 0.51,
+      "dias_sem_manutencao": 41,
+      "indice_risco_operacional": 53.85,
+      "previsao_chuva": 62.5,
+      "prioridade_operacional": "alta",
+      "status_operacional": "liberado",
+      "historico_rocadas": 9,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.379942",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-189",
+      "km_inicial": 94.0,
+      "km_final": 94.5,
+      "latitude": -13.811847,
+      "longitude": -37.641,
+      "zona": "monitoramento",
+      "valor_evi": 0.466,
+      "dias_sem_manutencao": 49,
+      "indice_risco_operacional": 52.23,
+      "previsao_chuva": 71.6,
+      "prioridade_operacional": "alta",
+      "status_operacional": "liberado",
+      "historico_rocadas": 7,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.379942",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-190",
+      "km_inicial": 94.5,
+      "km_final": 95.0,
+      "latitude": -13.816351,
+      "longitude": -37.636378,
+      "zona": "monitoramento",
+      "valor_evi": 0.554,
+      "dias_sem_manutencao": 57,
+      "indice_risco_operacional": 61.91,
+      "previsao_chuva": 76.0,
+      "prioridade_operacional": "alta",
+      "status_operacional": "liberado",
+      "historico_rocadas": 9,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.379942",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-191",
+      "km_inicial": 95.0,
+      "km_final": 95.5,
+      "latitude": -13.820856,
+      "longitude": -37.631755,
+      "zona": "monitoramento",
+      "valor_evi": 0.471,
+      "dias_sem_manutencao": 38,
+      "indice_risco_operacional": 56.07,
+      "previsao_chuva": 69.8,
+      "prioridade_operacional": "alta",
+      "status_operacional": "liberado",
+      "historico_rocadas": 7,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.379942",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-192",
+      "km_inicial": 95.5,
+      "km_final": 96.0,
+      "latitude": -13.82536,
+      "longitude": -37.627133,
+      "zona": "monitoramento",
+      "valor_evi": 0.394,
+      "dias_sem_manutencao": 55,
+      "indice_risco_operacional": 46.56,
+      "previsao_chuva": 86.1,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 6,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.379942",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-193",
+      "km_inicial": 96.0,
+      "km_final": 96.5,
+      "latitude": -13.829865,
+      "longitude": -37.622511,
+      "zona": "monitoramento",
+      "valor_evi": 0.454,
+      "dias_sem_manutencao": 52,
+      "indice_risco_operacional": 46.5,
+      "previsao_chuva": 73.8,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 9,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.380453",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-194",
+      "km_inicial": 96.5,
+      "km_final": 97.0,
+      "latitude": -13.834369,
+      "longitude": -37.617888,
+      "zona": "monitoramento",
+      "valor_evi": 0.469,
+      "dias_sem_manutencao": 29,
+      "indice_risco_operacional": 47.4,
+      "previsao_chuva": 85.7,
+      "prioridade_operacional": "media",
+      "status_operacional": "liberado",
+      "historico_rocadas": 9,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.380453",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-195",
+      "km_inicial": 97.0,
+      "km_final": 97.5,
+      "latitude": -13.838874,
+      "longitude": -37.613266,
+      "zona": "monitoramento",
+      "valor_evi": 0.58,
+      "dias_sem_manutencao": 53,
+      "indice_risco_operacional": 57.83,
+      "previsao_chuva": 63.9,
+      "prioridade_operacional": "alta",
+      "status_operacional": "liberado",
+      "historico_rocadas": 6,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.380453",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-196",
+      "km_inicial": 97.5,
+      "km_final": 98.0,
+      "latitude": -13.843378,
+      "longitude": -37.608644,
+      "zona": "monitoramento",
+      "valor_evi": 0.552,
+      "dias_sem_manutencao": 33,
+      "indice_risco_operacional": 50.61,
+      "previsao_chuva": 73.6,
+      "prioridade_operacional": "alta",
+      "status_operacional": "liberado",
+      "historico_rocadas": 7,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.380453",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-197",
+      "km_inicial": 98.0,
+      "km_final": 98.5,
+      "latitude": -13.847883,
+      "longitude": -37.604021,
+      "zona": "monitoramento",
+      "valor_evi": 0.59,
+      "dias_sem_manutencao": 29,
+      "indice_risco_operacional": 51.58,
+      "previsao_chuva": 77.7,
+      "prioridade_operacional": "alta",
+      "status_operacional": "liberado",
+      "historico_rocadas": 10,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.380453",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-198",
+      "km_inicial": 98.5,
+      "km_final": 99.0,
+      "latitude": -13.852387,
+      "longitude": -37.599399,
+      "zona": "monitoramento",
+      "valor_evi": 0.28,
+      "dias_sem_manutencao": 49,
+      "indice_risco_operacional": 56.29,
+      "previsao_chuva": 89.7,
+      "prioridade_operacional": "alta",
+      "status_operacional": "liberado",
+      "historico_rocadas": 8,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.380453",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    },
+    {
+      "id": "MT-199",
+      "km_inicial": 99.0,
+      "km_final": 99.5,
+      "latitude": -13.856892,
+      "longitude": -37.594777,
+      "zona": "monitoramento",
+      "valor_evi": 0.655,
+      "dias_sem_manutencao": 52,
+      "indice_risco_operacional": 65.55,
+      "previsao_chuva": 69.2,
+      "prioridade_operacional": "alta",
+      "status_operacional": "liberado",
+      "historico_rocadas": 7,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.380453",
+        "observacoes": [
+          "EVI elevado - monitorar inundações sazonais"
+        ]
+      }
+    },
+    {
+      "id": "MT-200",
+      "km_inicial": 99.5,
+      "km_final": 100.0,
+      "latitude": -13.861396,
+      "longitude": -37.590154,
+      "zona": "monitoramento",
+      "valor_evi": 0.411,
+      "dias_sem_manutencao": 30,
+      "indice_risco_operacional": 56.92,
+      "previsao_chuva": 68.8,
+      "prioridade_operacional": "alta",
+      "status_operacional": "liberado",
+      "historico_rocadas": 10,
+      "metadata": {
+        "data_coleta": "2026-05-20T23:00:01.380453",
+        "observacoes": [
+          "Situação normal"
+        ]
+      }
+    }
+  ],
+  "resumo": {
+    "trechos_criticos": 61,
+    "trechos_em_manutencao": 1,
+    "evi_medio": 0.479,
+    "risco_medio": 55.01
+  }
+}

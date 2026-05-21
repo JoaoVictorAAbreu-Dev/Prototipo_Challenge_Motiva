@@ -1,0 +1,25 @@
+# Backend
+backend/.venv/
+backend/__pycache__/
+backend/.pytest_cache/
+backend/.coverage
+backend/dist/
+backend/build/
+backend/.egg-info/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.next/
+frontend/.cache/
+
+# General
+.git
+.gitignore
+.env
+.env.local
+docker-compose.yml
+docker-compose.override.yml
+README.md
+.DS_Store
+*.log
