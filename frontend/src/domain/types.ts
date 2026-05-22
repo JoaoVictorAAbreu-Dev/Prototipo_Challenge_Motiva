@@ -1,36 +1,62 @@
-// Frontend API types and interfaces - Domain layer
-
 export interface Coordinate {
   latitude: number
   longitude: number
 }
 
-export interface Monitor {
-  id: string
-  name: string
-  description: string
-  monitor_type: 'perimeter' | 'point' | 'polygon' | 'heatmap'
-  status: 'active' | 'inactive' | 'pending' | 'archived'
-  center_coordinate: Coordinate
-  radius_meters?: number
-  created_at: string
-  updated_at: string
+export interface MicroSegmentMetadata {
+  collected_at: string
+  observations: string[]
+  projection_horizon_weeks: number
 }
 
-export interface MonitorList {
-  items: Monitor[]
+export interface OperationalMicroSegment {
+  id: string
+  monitor_id?: string | null
+  name: string
+  road_name: string
+  km_start: number
+  km_end: number
+  coordinates: Coordinate
+  zone: string
+  evi: number
+  rain_forecast: number
+  days_without_maintenance: number
+  operational_risk: number
+  contractual_weight: number
+  maintenance_history_count: number
+  operational_status: string
+  ipo: number
+  criticity_level: 'baixo' | 'moderado' | 'alto' | 'crítico'
+  operational_recommendation: string
+  recommended_intervention_deadline: string
+  projected_priority_score_48h: number
+  metadata: MicroSegmentMetadata
+}
+
+export interface MicroSegmentList {
+  items: OperationalMicroSegment[]
   total: number
   skip: number
   limit: number
 }
 
-export interface CreateMonitorRequest {
-  name: string
-  description: string
-  monitor_type: string
-  latitude: number
-  longitude: number
-  radius_meters?: number
+export interface SimulationProjectionRequest {
+  horizon_weeks: number
+  skip?: number
+  limit?: number
+}
+
+export interface SimulationProjectionSummary {
+  total_microsegments: number
+  critical_count: number
+  average_ipo: number
+  average_future_priority_48h: number
+}
+
+export interface SimulationProjectionResponse {
+  horizon_weeks: number
+  items: OperationalMicroSegment[]
+  summary: SimulationProjectionSummary
 }
 
 export interface ClusterGenerationMicrosegment {

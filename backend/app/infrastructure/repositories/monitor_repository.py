@@ -3,7 +3,7 @@ SQLAlchemy Repository Implementation - Monitor persistence
 """
 
 from typing import List, Optional
-from sqlalchemy import select
+from sqlalchemy import func, select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.domain.entities.monitor import Monitor
@@ -36,7 +36,7 @@ class SQLAlchemyMonitorRepository(MonitorRepository):
 
     async def get_all(self, skip: int = 0, limit: int = 20) -> List[Monitor]:
         """Get all monitors with pagination"""
-        query = select(MonitorModel).offset(skip).limit(limit)
+        query = select(MonitorModel).order_by(MonitorModel.created_at.desc()).offset(skip).limit(limit)
         result = await self.session.execute(query)
         models = result.scalars().all()
         return [MonitorMapper.to_domain(model) for model in models]
@@ -68,6 +68,7 @@ class SQLAlchemyMonitorRepository(MonitorRepository):
 
     async def count(self) -> int:
         """Count total monitors"""
-        query = select(MonitorModel)
-        result = await self.session.execute(query)
-        return len(result.scalars().all())
+        result = await self.session.execute(
+            select(func.count()).select_from(MonitorModel)
+        )
+        return int(result.scalar_one())

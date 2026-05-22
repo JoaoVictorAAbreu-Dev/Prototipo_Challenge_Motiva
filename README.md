@@ -1,283 +1,382 @@
-<h1 align="center">Nexus Sentinel</h1>
+<h1 align="center">Nexus-SENTINEL</h1>
 
 <p align="center">
-  <strong>Enterprise Geospatial Monitoring Platform</strong>
+  Plataforma enterprise para gestão rodoviária com Digital Twin operacional,
+  inteligência de criticidade, clustering logístico e geração de evidência regulatória.
 </p>
 
 <p align="center">
-  Plataforma corporativa de monitoramento geoespacial, desenvolvida com foco em escalabilidade, modularidade e separação clara de responsabilidades.
+  <img src="https://img.shields.io/badge/backend-FastAPI-0f172a?style=for-the-badge&logo=fastapi&logoColor=22c55e" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/frontend-React%20%2B%20TypeScript-0f172a?style=for-the-badge&logo=react&logoColor=61dafb" alt="React TypeScript" />
+  <img src="https://img.shields.io/badge/database-PostgreSQL%20%2B%20PostGIS-0f172a?style=for-the-badge&logo=postgresql&logoColor=60a5fa" alt="PostgreSQL PostGIS" />
+  <img src="https://img.shields.io/badge/architecture-DDD%20%7C%20Clean%20Architecture-0f172a?style=for-the-badge&logo=codefactor&logoColor=f8fafc" alt="DDD Clean Architecture" />
 </p>
 
 <p align="center">
-  <a href="./LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
-  <a href="#"><img src="https://img.shields.io/badge/backend-FastAPI-009688" alt="Backend"></a>
-  <a href="#"><img src="https://img.shields.io/badge/frontend-React%20%2B%20TypeScript-61DAFB" alt="Frontend"></a>
-  <a href="#"><img src="https://img.shields.io/badge/database-PostgreSQL%20%2B%20PostGIS-336791" alt="Database"></a>
+  <a href="#visao-geral">Visão Geral</a> •
+  <a href="#capacidades">Capacidades</a> •
+  <a href="#arquitetura">Arquitetura</a> •
+  <a href="#api">API</a> •
+  <a href="#execucao">Execução</a> •
+  <a href="#validacao">Validação</a>
 </p>
 
-<hr>
+<hr />
 
-<h2>Visão geral</h2>
+<h2 id="visao-geral">Visão Geral</h2>
 
 <p>
-  O Nexus Sentinel foi criado para cenários que exigem monitoramento geoespacial confiável, auditável e fácil de evoluir.
-  O projeto separa domínio, aplicação, infraestrutura e interface para reduzir acoplamento e aumentar a manutenibilidade.
+  O Nexus-SENTINEL é um monólito modular orientado a domínio para priorização de manutenção rodoviária.
+  O sistema utiliza <strong>microtrechos</strong> como malha operacional principal e mantém
+  <strong>monitors</strong> como camada de gestão, observação e suporte contratual.
 </p>
 
 <p>
-  A arquitetura foi desenhada para suportar crescimento por capacidade de negócio, com backend moderno, frontend responsivo e persistência espacial.
+  A plataforma entrega uma superfície operacional com projeção temporal, agrupamento inteligente de ordens,
+  buffer logístico para retenção estratégica e geração de dossiê digital em PDF para trilha de conformidade.
 </p>
-
-<h2>Sumário</h2>
-
-<ul>
-  <li><a href="#visao-geral">Visão geral</a></li>
-  <li><a href="#arquitetura">Arquitetura</a></li>
-  <li><a href="#principais-funcionalidades">Principais funcionalidades</a></li>
-  <li><a href="#estrutura-do-projeto">Estrutura do projeto</a></li>
-  <li><a href="#como-executar">Como executar</a></li>
-  <li><a href="#desenvolvimento-local">Desenvolvimento local</a></li>
-  <li><a href="#banco-de-dados">Banco de dados</a></li>
-  <li><a href="#seguranca">Segurança</a></li>
-  <li><a href="#api">API</a></li>
-  <li><a href="#testes">Testes</a></li>
-  <li><a href="#qualidade-de-codigo">Qualidade de código</a></li>
-  <li><a href="#deploy">Deploy</a></li>
-  <li><a href="#licenca">Licença</a></li>
-</ul>
-
-<h2>Arquitetura</h2>
-
-<pre><code>┌──────────────────────────────────────────────────────────────┐
-│                      Frontend Layer                          │
-│               React + TypeScript + Vite + Tailwind           │
-│            Domain | Application | Infrastructure | UI        │
-└──────────────────────────────────────────────────────────────┘
-                           ↕ HTTP / REST
-┌──────────────────────────────────────────────────────────────┐
-│                       Backend Layer                          │
-│                FastAPI + SQLAlchemy + SQLModel               │
-│            Domain | Application | Infrastructure | API       │
-└──────────────────────────────────────────────────────────────┘
-                           ↕ SQL
-┌──────────────────────────────────────────────────────────────┐
-│                        Data Layer                             │
-│              PostgreSQL + PostGIS + Redis                    │
-└──────────────────────────────────────────────────────────────┘
-</code></pre>
-
-<h3>Princípios de projeto</h3>
-
-<ul>
-  <li>Domain-Driven Design para centralizar regras de negócio.</li>
-  <li>Clean Architecture para separar responsabilidades.</li>
-  <li>Modular Monolith para organizar o sistema por contexto.</li>
-  <li>Repository Pattern para desacoplar persistência.</li>
-  <li>Use Case Pattern para explicitar fluxos de aplicação.</li>
-</ul>
-
-<h2>Principais funcionalidades</h2>
 
 <table>
   <tr>
-    <th>Backend</th>
-    <th>Frontend</th>
+    <td><strong>Problema resolvido</strong></td>
+    <td>Priorização operacional, redução de deslocamento improdutivo e suporte à conformidade ANTT.</td>
   </tr>
   <tr>
-    <td>
-      <ul>
-        <li>API REST com FastAPI.</li>
-        <li>Suporte a operações assíncronas.</li>
-        <li>Consultas geoespaciais com PostgreSQL + PostGIS.</li>
-        <li>Cache e mensageria com Redis.</li>
-        <li>Autenticação pronta para JWT.</li>
-        <li>Migrações com Alembic.</li>
-      </ul>
-    </td>
-    <td>
-      <ul>
-        <li>React 18 com TypeScript.</li>
-        <li>Vite para build e desenvolvimento rápidos.</li>
-        <li>Tailwind CSS para interface responsiva.</li>
-        <li>Leaflet para mapas interativos.</li>
-        <li>Zustand para gerenciamento de estado.</li>
-        <li>Axios para integração com a API.</li>
-      </ul>
-    </td>
+    <td><strong>Modelo principal</strong></td>
+    <td><code>microsegments</code> + simulação temporal + clusters DBSCAN + Compliance Mirror.</td>
+  </tr>
+  <tr>
+    <td><strong>Experiência</strong></td>
+    <td>Dashboard dark mode enterprise com mapa operacional central, briefing técnico e KPIs executivos.</td>
   </tr>
 </table>
 
-<h2>Estrutura do projeto</h2>
-
-<h3>Backend</h3>
-
-<pre><code>backend/
-├── app/
-│   ├── domain/
-│   ├── application/
-│   ├── infrastructure/
-│   ├── presentation/
-│   ├── main.py
-│   └── config.py
-├── tests/
-├── requirements.txt
-├── Dockerfile
-└── .env.example
-</code></pre>
-
-<h3>Frontend</h3>
-
-<pre><code>frontend/
-├── src/
-│   ├── domain/
-│   ├── application/
-│   ├── infrastructure/
-│   ├── presentation/
-│   ├── App.tsx
-│   └── main.tsx
-├── index.html
-├── package.json
-├── vite.config.ts
-├── tailwind.config.js
-├── tsconfig.json
-├── Dockerfile
-└── .env.example
-</code></pre>
-
-<h2>Como executar</h2>
-
-<h3>Pré-requisitos</h3>
+<h2 id="capacidades">Capacidades</h2>
 
 <ul>
-  <li>Docker e Docker Compose.</li>
-  <li>Node.js 18+.</li>
-  <li>Python 3.12+.</li>
+  <li><strong>Operational Priority Engine:</strong> cálculo de IPO com EVI, chuva, dias sem manutenção, risco operacional e peso contratual.</li>
+  <li><strong>Digital Twin Operacional:</strong> simulação das próximas semanas com recalculo de criticidade e evolução do risco.</li>
+  <li><strong>Clustering logístico:</strong> agrupamento DBSCAN de microtrechos críticos próximos para formação de frentes de intervenção.</li>
+  <li><strong>Logistics-Compliance Buffer:</strong> retenção estratégica de ordens por até 48h para maximizar eficiência operacional.</li>
+  <li><strong>Compliance Mirror:</strong> exportação de PDF com evidência operacional, histórico e conformidade contratual.</li>
+  <li><strong>Dashboard executivo:</strong> KPIs de redução operacional, economia logística, combustível economizado e criticidade média da malha.</li>
 </ul>
 
-<h3>Execução com Docker</h3>
+<h2 id="arquitetura">Arquitetura</h2>
 
-<pre><code>git clone &lt;repository&gt;
-cd nexus-sentinel
-cp .env.example .env
-docker-compose up -d
-</code></pre>
+<p>
+  O backend foi estruturado com <strong>DDD</strong>, <strong>Clean Architecture</strong> e
+  <strong>Modular Monolith</strong>, com separação explícita entre domínio, aplicação,
+  infraestrutura e apresentação.
+</p>
 
-<h3>Acessos principais</h3>
+<table>
+  <thead>
+    <tr>
+      <th align="left">Camada</th>
+      <th align="left">Responsabilidade</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>domain</code></td>
+      <td>Entidades, value objects, contratos de repositório e regras centrais de negócio.</td>
+    </tr>
+    <tr>
+      <td><code>application</code></td>
+      <td>Use cases por módulo e orquestração de fluxos.</td>
+    </tr>
+    <tr>
+      <td><code>infrastructure</code></td>
+      <td>SQLAlchemy, bootstrap de seed, persistência e exportação PDF.</td>
+    </tr>
+    <tr>
+      <td><code>presentation</code></td>
+      <td>Routers FastAPI, DTOs Pydantic e composição da API pública.</td>
+    </tr>
+  </tbody>
+</table>
 
-<ul>
-  <li>Frontend: <code>http://localhost:3000</code></li>
-  <li>Backend API: <code>http://localhost:8000</code></li>
-  <li>Documentação da API: <code>http://localhost:8000/api/docs</code></li>
-  <li>Banco de dados: <code>localhost:5432</code></li>
-</ul>
+<h3>Domínios do backend</h3>
 
-<h2>Desenvolvimento local</h2>
+<table>
+  <thead>
+    <tr>
+      <th align="left">Módulo</th>
+      <th align="left">Função</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>operational_intelligence</code></td>
+      <td>Monitors, microsegments e cálculo de IPO.</td>
+    </tr>
+    <tr>
+      <td><code>simulation</code></td>
+      <td>Projeção temporal da malha e recalculo operacional.</td>
+    </tr>
+    <tr>
+      <td><code>logistics</code></td>
+      <td>DBSCAN, compensação logística e buffer de agrupamento estratégico.</td>
+    </tr>
+    <tr>
+      <td><code>compliance</code></td>
+      <td>Geração de dossiê digital de evidência em PDF.</td>
+    </tr>
+  </tbody>
+</table>
 
-<h3>Backend</h3>
+<h3>Estrutura ativa</h3>
 
-<pre><code>cd backend
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
+<pre><code>backend/app/
+├── core/
+├── domain/
+├── infrastructure/
+├── modules/
+│   ├── compliance/
+│   ├── logistics/
+│   ├── operational_intelligence/
+│   └── simulation/
+└── presentation/
+
+frontend/src/
+├── domain/
+├── infrastructure/
+└── presentation/
+    ├── components/
+    ├── hooks/
+    ├── pages/
+    ├── styles/
+    └── utils/</code></pre>
+
+<h2>Fluxo Operacional</h2>
+
+<ol>
+  <li>O seed inicial carrega a malha de <code>highway_data.json</code> para <code>microsegments</code>.</li>
+  <li>A API entrega o estado atual da malha com IPO projetado em tempo real.</li>
+  <li>O slider temporal aciona projeção futura via backend.</li>
+  <li>Os clusters são recalculados com DBSCAN a partir dos microtrechos projetados.</li>
+  <li>O buffer logístico decide retenção ou despacho imediato da ordem.</li>
+  <li>O Compliance Mirror exporta o PDF do trecho selecionado.</li>
+</ol>
+
+<h2 id="api">API</h2>
+
+<p>
+  Base local padrão: <code>http://localhost:8000/api/v1</code><br />
+  Documentação interativa: <code>http://localhost:8000/api/docs</code>
+</p>
+
+<table>
+  <thead>
+    <tr>
+      <th align="left">Método</th>
+      <th align="left">Rota</th>
+      <th align="left">Descrição</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>GET</code></td>
+      <td><code>/microsegments</code></td>
+      <td>Lista a malha operacional atual com IPO, criticidade, recomendação e metadados.</td>
+    </tr>
+    <tr>
+      <td><code>GET</code></td>
+      <td><code>/microsegments/{microsegment_id}</code></td>
+      <td>Retorna o detalhe operacional de um microtrecho.</td>
+    </tr>
+    <tr>
+      <td><code>POST</code></td>
+      <td><code>/simulation/project</code></td>
+      <td>Projeta a malha nas próximas semanas e recalcula o comportamento operacional.</td>
+    </tr>
+    <tr>
+      <td><code>POST</code></td>
+      <td><code>/calculate-ipo</code></td>
+      <td>Executa o cálculo isolado do Operational Priority Engine.</td>
+    </tr>
+    <tr>
+      <td><code>POST</code></td>
+      <td><code>/generate-clusters</code></td>
+      <td>Gera clusters de intervenção com métricas logísticas e buffer estratégico.</td>
+    </tr>
+    <tr>
+      <td><code>GET</code></td>
+      <td><code>/export-compliance-report/{segment_id}</code></td>
+      <td>Exporta o dossiê digital de evidência operacional em PDF.</td>
+    </tr>
+    <tr>
+      <td><code>GET</code></td>
+      <td><code>/monitors</code></td>
+      <td>Lista a camada de gestão de monitors.</td>
+    </tr>
+    <tr>
+      <td><code>GET</code></td>
+      <td><code>/monitors/{monitor_id}</code></td>
+      <td>Consulta um monitor específico.</td>
+    </tr>
+    <tr>
+      <td><code>POST</code></td>
+      <td><code>/monitors</code></td>
+      <td>Cria um novo monitor operacional.</td>
+    </tr>
+    <tr>
+      <td><code>GET</code></td>
+      <td><code>/health</code></td>
+      <td>Health check da aplicação.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Stack Técnica</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th align="left">Camada</th>
+      <th align="left">Tecnologias</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Backend</td>
+      <td>FastAPI, Pydantic, SQLAlchemy, asyncpg, GeoAlchemy2</td>
+    </tr>
+    <tr>
+      <td>Geoespacial</td>
+      <td>PostgreSQL, PostGIS</td>
+    </tr>
+    <tr>
+      <td>Analytics</td>
+      <td>NumPy, scikit-learn</td>
+    </tr>
+    <tr>
+      <td>Compliance</td>
+      <td>ReportLab</td>
+    </tr>
+    <tr>
+      <td>Frontend</td>
+      <td>React 18, TypeScript, Vite, Leaflet, Axios</td>
+    </tr>
+    <tr>
+      <td>Qualidade</td>
+      <td>Pytest, ESLint, TypeScript compiler</td>
+    </tr>
+    <tr>
+      <td>Infra</td>
+      <td>Docker, Docker Compose</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="execucao">Execução</h2>
+
+<h3>Docker</h3>
+
+<pre><code class="language-powershell">docker-compose up --build</code></pre>
+
+<table>
+  <thead>
+    <tr>
+      <th align="left">Serviço</th>
+      <th align="left">URL padrão</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Frontend</td>
+      <td><code>http://localhost:3000</code></td>
+    </tr>
+    <tr>
+      <td>Backend</td>
+      <td><code>http://localhost:8000</code></td>
+    </tr>
+    <tr>
+      <td>Swagger</td>
+      <td><code>http://localhost:8000/api/docs</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>Execução local</h3>
+
+<details open>
+  <summary><strong>Backend</strong></summary>
+  <pre><code class="language-powershell">cd backend
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
-alembic upgrade head
-uvicorn app.main:app --reload
-</code></pre>
+uvicorn app.main:app --reload</code></pre>
+</details>
 
-<h3>Frontend</h3>
-
-<pre><code>cd frontend
+<details open>
+  <summary><strong>Frontend</strong></summary>
+  <pre><code class="language-powershell">cd frontend
 npm install
-npm run dev
-</code></pre>
+npm run dev</code></pre>
+</details>
 
-<h2>Banco de dados</h2>
+<h3>Configuração de ambiente</h3>
 
-<ul>
-  <li><code>monitors</code>: zonas de monitoramento geoespacial.</li>
-  <li><code>alerts</code>: eventos e notificações.</li>
-  <li><code>users</code>: gerenciamento de usuários.</li>
-  <li><code>audit_logs</code>: trilha de auditoria.</li>
-</ul>
+<p>
+  O backend expõe um arquivo base em <code>backend/.env.example</code>.
+  A principal configuração é a conexão <code>DATABASE_URL</code> para PostgreSQL/PostGIS.
+</p>
 
-<h2>Segurança</h2>
+<h2>Seed Operacional</h2>
 
 <ul>
-  <li>CORS configurado.</li>
-  <li>Autenticação baseada em JWT.</li>
-  <li>Hash de senhas com bcrypt.</li>
-  <li>Proteção contra SQL injection com SQLAlchemy.</li>
-  <li>Validação de entrada com Pydantic.</li>
-  <li>Segredos definidos por ambiente.</li>
+  <li>O seed inicial é carregado de <code>highway_data.json</code>.</li>
+  <li>O bootstrap ocorre no startup da API quando a tabela <code>microsegments</code> está vazia.</li>
+  <li>A malha usa <code>microsegments</code> como agregados principais do Digital Twin.</li>
+  <li><code>monitors</code> permanecem como camada de gestão e observação operacional.</li>
 </ul>
 
-<h2>API</h2>
+<h2 id="validacao">Validação</h2>
 
-<h3>Criar monitor</h3>
+<p>Comandos recomendados para verificação local:</p>
 
-<pre><code>POST /api/v1/monitors
-Content-Type: application/json
-
-{
-  "name": "Perimeter Zone A",
-  "description": "Main facility perimeter",
-  "monitor_type": "perimeter",
-  "latitude": -15.793889,
-  "longitude": -47.879444,
-  "radius_meters": 500
-}
-</code></pre>
-
-<h3>Outros endpoints</h3>
-
-<pre><code>GET /api/v1/monitors/{monitor_id}
-GET /api/v1/monitors?skip=0&amp;limit=20
-</code></pre>
-
-<h2>Testes</h2>
-
-<h3>Backend</h3>
-
-<pre><code>cd backend
+<pre><code class="language-powershell">cd backend
 pytest
-pytest -v
-pytest --cov
-pytest -k "monitor"
-</code></pre>
 
-<h3>Frontend</h3>
-
-<pre><code>cd frontend
-npm run test
-npm run test:watch
-</code></pre>
-
-<h2>Qualidade de código</h2>
-
-<h3>Backend</h3>
-
-<pre><code>cd backend
-black .
-flake8 .
-mypy .
-isort .
-</code></pre>
-
-<h3>Frontend</h3>
-
-<pre><code>cd frontend
+cd ..\frontend
 npm run lint
-npm run format
 npm run type-check
-</code></pre>
+npm run build</code></pre>
 
-<h2>Deploy</h2>
+<p>
+  Estado validado da base atual:
+</p>
 
-<pre><code>docker-compose build
-docker-compose up -d
-docker-compose logs -f backend
-docker-compose logs -f frontend
-</code></pre>
+<ul>
+  <li><code>pytest</code> passando no backend.</li>
+  <li><code>npm run lint</code> passando no frontend.</li>
+  <li><code>npm run type-check</code> passando no frontend.</li>
+  <li><code>npm run build</code> passando no frontend.</li>
+</ul>
 
-<h2>Licença</h2>
+<h2>Roteiro de Demonstração</h2>
 
-<p>Distribuído sob a licença MIT. Consulte o arquivo <code>LICENSE</code> para mais detalhes.</p>
+<ol>
+  <li>Abrir o dashboard e observar a malha carregada.</li>
+  <li>Mover o slider de semanas para agravar EVI, IPO e criticidade.</li>
+  <li>Observar a reorganização dos clusters e o efeito do buffer logístico.</li>
+  <li>Selecionar um microtrecho crítico no mapa ou na lista lateral.</li>
+  <li>Exportar o PDF de compliance diretamente do briefing operacional.</li>
+</ol>
+
+<h2>Diretrizes de Engenharia</h2>
+
+<ul>
+  <li>Separação explícita de responsabilidades entre backend e frontend.</li>
+  <li>Domínios isolados por módulo para facilitar evolução futura.</li>
+  <li>Tipagem forte em Pydantic e TypeScript.</li>
+  <li>Base preparada para crescimento sem perder legibilidade operacional.</li>
+</ul>
+
+<hr />
+
+<p align="center">
+  Documentação estruturada para apresentação técnica, leitura executiva e evolução contínua do produto.
+</p>

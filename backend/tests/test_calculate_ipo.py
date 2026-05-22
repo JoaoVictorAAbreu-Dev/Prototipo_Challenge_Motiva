@@ -1,11 +1,10 @@
-from app.application.use_cases.calculate_ipo import (
+import pytest
+
+from app.domain.services.ipo_engine import IPOEngine
+from app.modules.operational_intelligence.application.use_cases import (
     CalculateIPORequest,
     CalculateIPOUseCase,
 )
-from app.domain.services.ipo_engine import IPOEngine
-
-
-import pytest
 
 
 @pytest.mark.anyio

@@ -1,13 +1,13 @@
 import pytest
 
-from app.application.use_cases.generate_clusters import (
-    GenerateClustersMicroSegmentRequest,
-    GenerateClustersRequest,
-    GenerateClustersUseCase,
-)
 from app.domain.services.cluster_generation_service import ClusterGenerationService
 from app.domain.services.logistics_compliance_buffer_service import (
     LogisticsComplianceBufferService,
+)
+from app.modules.logistics.application.use_cases import (
+    GenerateClustersMicroSegmentRequest,
+    GenerateClustersRequest,
+    GenerateClustersUseCase,
 )
 
 

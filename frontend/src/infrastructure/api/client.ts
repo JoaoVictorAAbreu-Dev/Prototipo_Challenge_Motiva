@@ -2,12 +2,13 @@
 
 import axios, { AxiosInstance, AxiosError } from 'axios'
 import {
-  Monitor,
-  MonitorList,
-  CreateMonitorRequest,
   ApiError,
   GenerateClustersRequest,
   InterventionCluster,
+  MicroSegmentList,
+  OperationalMicroSegment,
+  SimulationProjectionRequest,
+  SimulationProjectionResponse,
 } from '@/domain/types'
 
 class ApiClient {
@@ -42,24 +43,6 @@ class ApiClient {
     throw error
   }
 
-  // Monitor endpoints
-  async createMonitor(data: CreateMonitorRequest): Promise<Monitor> {
-    const response = await this.client.post<Monitor>('/monitors', data)
-    return response.data
-  }
-
-  async getMonitor(id: string): Promise<Monitor> {
-    const response = await this.client.get<Monitor>(`/monitors/${id}`)
-    return response.data
-  }
-
-  async listMonitors(skip: number = 0, limit: number = 20): Promise<MonitorList> {
-    const response = await this.client.get<MonitorList>('/monitors', {
-      params: { skip, limit },
-    })
-    return response.data
-  }
-
   async generateClusters(
     data: GenerateClustersRequest,
   ): Promise<InterventionCluster[]> {
@@ -68,6 +51,40 @@ class ApiClient {
       data,
     )
     return response.data
+  }
+
+  async listMicrosegments(
+    skip: number = 0,
+    limit: number = 250,
+  ): Promise<MicroSegmentList> {
+    const response = await this.client.get<MicroSegmentList>('/microsegments', {
+      params: { skip, limit },
+    })
+    return response.data
+  }
+
+  async getMicrosegment(id: string): Promise<OperationalMicroSegment> {
+    const response = await this.client.get<OperationalMicroSegment>(
+      `/microsegments/${id}`,
+    )
+    return response.data
+  }
+
+  async projectSimulation(
+    data: SimulationProjectionRequest,
+  ): Promise<SimulationProjectionResponse> {
+    const response = await this.client.post<SimulationProjectionResponse>(
+      '/simulation/project',
+      data,
+    )
+    return response.data
+  }
+
+  async exportComplianceReport(segmentId: string): Promise<Blob> {
+    const response = await this.client.get(`/export-compliance-report/${segmentId}`, {
+      responseType: 'blob',
+    })
+    return response.data as Blob
   }
 }
 

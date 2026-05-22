@@ -3,7 +3,7 @@ Presentation Schemas - Request/Response DTOs for API
 """
 
 from typing import Optional
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, ConfigDict, Field
 
 
 class CoordinateSchema(BaseModel):
@@ -31,6 +31,8 @@ class CreateMonitorSchema(BaseModel):
 class MonitorSchema(BaseModel):
     """Full monitor schema"""
 
+    model_config = ConfigDict(from_attributes=True)
+
     id: str
     name: str
     description: str
@@ -41,9 +43,6 @@ class MonitorSchema(BaseModel):
     created_at: str
     updated_at: str
 
-    class Config:
-        from_attributes = True
-
 
 class MonitorListSchema(BaseModel):
     """Paginated monitors list"""
@@ -52,13 +51,6 @@ class MonitorListSchema(BaseModel):
     total: int
     skip: int
     limit: int
-
-
-class ErrorSchema(BaseModel):
-    """Error response schema"""
-
-    detail: str
-    error_code: Optional[str] = None
 
 
 class CalculateIPOSchema(BaseModel):
@@ -138,3 +130,59 @@ class InterventionClusterSchema(BaseModel):
     future_priority_average_48h: float
     logistics_compliance_buffer: LogisticsComplianceBufferSchema
     microsegments: list[InterventionClusterMicroSegmentSchema]
+
+
+class MicroSegmentMetadataSchema(BaseModel):
+    collected_at: str
+    observations: list[str]
+    projection_horizon_weeks: float
+
+
+class MicroSegmentSchema(BaseModel):
+    id: str
+    monitor_id: Optional[str] = None
+    name: str
+    road_name: str
+    km_start: float
+    km_end: float
+    coordinates: CoordinateSchema
+    zone: str
+    evi: float
+    rain_forecast: float
+    days_without_maintenance: int
+    operational_risk: float
+    contractual_weight: int
+    maintenance_history_count: int
+    operational_status: str
+    ipo: float
+    criticity_level: str
+    operational_recommendation: str
+    recommended_intervention_deadline: str
+    projected_priority_score_48h: float
+    metadata: MicroSegmentMetadataSchema
+
+
+class MicroSegmentListSchema(BaseModel):
+    items: list[MicroSegmentSchema]
+    total: int
+    skip: int
+    limit: int
+
+
+class SimulationProjectionRequestSchema(BaseModel):
+    horizon_weeks: float = Field(..., ge=0, le=12)
+    skip: int = Field(0, ge=0)
+    limit: int = Field(250, ge=1, le=500)
+
+
+class SimulationProjectionSummarySchema(BaseModel):
+    total_microsegments: int
+    critical_count: int
+    average_ipo: float
+    average_future_priority_48h: float
+
+
+class SimulationProjectionResponseSchema(BaseModel):
+    horizon_weeks: float
+    items: list[MicroSegmentSchema]
+    summary: SimulationProjectionSummarySchema

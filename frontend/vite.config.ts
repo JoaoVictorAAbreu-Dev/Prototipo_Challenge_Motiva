@@ -14,8 +14,7 @@ export default defineConfig({
       output: {
         manualChunks: {
           'vendor': ['react', 'react-dom'],
-          'map': ['leaflet', 'react-leaflet'],
-          'ui': ['@radix-ui/react-dialog', '@radix-ui/react-dropdown-menu'],
+          'map': ['leaflet'],
         },
       },
     },

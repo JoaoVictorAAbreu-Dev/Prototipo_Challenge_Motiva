@@ -1,26 +1,17 @@
-"""
-Nexus SENTINEL - FastAPI Main Application
-Enterprise-grade geospatial monitoring platform
-"""
+"""Nexus SENTINEL FastAPI application."""
 
 import logging
 from contextlib import asynccontextmanager
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.middleware.trustedhost import TrustedHostMiddleware
 from fastapi.middleware.gzip import GZipMiddleware
+from fastapi.middleware.trustedhost import TrustedHostMiddleware
 
-from app.config import Settings, get_settings
-from app.infrastructure.database.session import init_db
-from app.presentation.api.v1.routes import (
-    cluster_router,
-    compliance_router,
-    ipo_router,
-    router as api_v1_router,
-)
+from app.core.config import Settings, get_settings
+from app.core.database import init_db
+from app.presentation.api.router import api_router
 
-# Configure logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
@@ -29,16 +20,16 @@ settings: Settings = get_settings()
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    """Handle startup and shutdown events"""
-    logger.info("🚀 Starting Nexus SENTINEL application")
+    """Handle startup and shutdown events."""
+    logger.info("Starting Nexus SENTINEL application")
     await init_db()
-    logger.info("✅ Database initialized")
+    logger.info("Database initialized")
     yield
-    logger.info("🛑 Shutting down Nexus SENTINEL application")
+    logger.info("Shutting down Nexus SENTINEL application")
 
 
 def create_app() -> FastAPI:
-    """Create and configure FastAPI application"""
+    """Create and configure the FastAPI application."""
     app = FastAPI(
         title=settings.API_TITLE,
         description="Enterprise Geospatial Monitoring Platform",
@@ -49,28 +40,22 @@ def create_app() -> FastAPI:
         lifespan=lifespan,
     )
 
-    # Middleware stack (order matters)
     app.add_middleware(GZipMiddleware, minimum_size=1000)
     app.add_middleware(TrustedHostMiddleware, allowed_hosts=["*"])
     app.add_middleware(
         CORSMiddleware,
         allow_origins=settings.CORS_ORIGINS,
-        allow_credentials=True,
+        allow_credentials=settings.CORS_ALLOW_CREDENTIALS,
         allow_methods=["*"],
         allow_headers=["*"],
         expose_headers=["X-Total-Count", "X-Page-Count"],
     )
 
-    # Include routers
-    app.include_router(api_v1_router, prefix="/api/v1")
-    app.include_router(ipo_router, prefix="/api/v1")
-    app.include_router(cluster_router, prefix="/api/v1")
-    app.include_router(compliance_router, prefix="/api/v1")
+    app.include_router(api_router, prefix="/api/v1")
 
-    # Health check endpoint
-    @app.get("/health", tags=["Health"])
+    @app.get("/health", tags=["health"])
     async def health_check():
-        return {"status": "healthy", "service": "Nexus SENTINEL"}
+        return {"status": "healthy", "service": settings.APP_NAME}
 
     return app
 
@@ -80,9 +65,4 @@ app = create_app()
 if __name__ == "__main__":
     import uvicorn
 
-    uvicorn.run(
-        app,
-        host="0.0.0.0",
-        port=8000,
-        reload=settings.DEBUG,
-    )
+    uvicorn.run(app, host="0.0.0.0", port=8000, reload=settings.DEBUG)

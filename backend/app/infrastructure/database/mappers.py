@@ -2,7 +2,6 @@
 Mapper - Convert between domain entities and persistence models
 """
 
-from shapely.geometry import Point
 from app.domain.entities.monitor import Monitor, MonitorType
 from app.domain.value_objects import Coordinate, StatusEnum
 from app.infrastructure.database.models import MonitorModel
@@ -14,9 +13,8 @@ class MonitorMapper:
     @staticmethod
     def to_domain(model: MonitorModel) -> Monitor:
         """Convert database model to domain entity"""
-        # Extract coordinates from Point geometry
-        coords = model.center_point.x, model.center_point.y
-        coordinate = Coordinate(latitude=coords[1], longitude=coords[0])
+        longitude, latitude = _parse_point(model.center_point)
+        coordinate = Coordinate(latitude=latitude, longitude=longitude)
 
         return Monitor(
             id=model.id,
@@ -33,9 +31,6 @@ class MonitorMapper:
     @staticmethod
     def to_persistence(entity: Monitor) -> MonitorModel:
         """Convert domain entity to database model"""
-        # Create Point from coordinates (longitude, latitude for PostGIS)
-        point = Point(entity.center_coordinate.longitude, entity.center_coordinate.latitude)
-
         return MonitorModel(
             id=entity.id,
             name=entity.name,
@@ -47,3 +42,18 @@ class MonitorMapper:
             created_at=entity.created_at,
             updated_at=entity.updated_at,
         )
+
+
+def _parse_point(value) -> tuple[float, float]:
+    if hasattr(value, "x") and hasattr(value, "y"):
+        return float(value.x), float(value.y)
+
+    if isinstance(value, str):
+        normalized = value
+        if normalized.startswith("SRID="):
+            normalized = normalized.split(";", 1)[1]
+        normalized = normalized.removeprefix("POINT(").removesuffix(")")
+        longitude, latitude = normalized.split()
+        return float(longitude), float(latitude)
+
+    raise ValueError("Unsupported point geometry format")
